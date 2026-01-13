@@ -46,7 +46,7 @@
               </Creative>
               <Creative id="c7168169-ce60-4492-9938-428b30ba0a2c" sequence="1">
                   <Linear>
-                      <Duration>00:00:32</Duration>
+                      <Duration>00:00:30</Duration>
                       <TrackingEvents>
                           <Tracking event="start">
                               <![CDATA[https://vast.interactive-breaks.com/vast/v1/ad/f4562528-c67f-4d0f-be77-cf69d7f76b9b/event/report/track/start]]>
