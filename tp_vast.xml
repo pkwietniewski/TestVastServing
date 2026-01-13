@@ -1,0 +1,100 @@
+<VAST xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vast.xsd" version="3.0">
+    <Ad id="f4562528-c67f-4d0f-be77-cf69d7f76b9b_1_5">
+      <InLine>
+          <AdSystem>
+              <![CDATA[Samsung Interactive Break]]>
+          </AdSystem>
+          <Error><![CDATA[https://vast.interactive-breaks.com/vast/v1/ad/f4562528-c67f-4d0f-be77-cf69d7f76b9b/event/report/error/[ERRORCODE]?ref_code=[REFCODE]]]></Error>
+          <AdTitle>
+              <![CDATA[Interactive Break]]>
+          </AdTitle>
+          <Description>
+              <![CDATA[f4562528-c67f-4d0f-be77-cf69d7f76b9b_1 | Interactive Break | Letterman Team Pitch 1 ]]>
+          </Description>
+          <Impression>
+              <![CDATA[https://vast.interactive-breaks.com/vast/v1/ad/f4562528-c67f-4d0f-be77-cf69d7f76b9b/event/report/impression]]>
+          </Impression>
+          <Creatives>
+              <Creative id="9c5e8d70-ed0f-48d1-9edd-0d0ebf23a060" sequence="1">
+                  <CompanionAds required="all">
+                      <Companion id="1" width="1920" height="1080" apiFramework="minigames">
+                          <IFrameResource>
+                              <![CDATA[https://app.interactive-breaks.com/?vast_data=aHR0cHMlM0ElMkYlMkZ2YXN0LmludGVyYWN0aXZlLWJyZWFrcy5jb20lMkZlY29tbSUyRmY1ODM1Mzg2LTA1NzAtNDdhYS1iZTk4LTQzY2I1YTVkZWViNCUyRmY0NTYyNTI4LWM2N2YtNGQwZi1iZTc3LWNmNjlkN2Y3NmI5YiUyRmY0NTYyNTI4LWM2N2YtNGQwZi1iZTc3LWNmNjlkN2Y3NmI5Yl8xLmpzb24K]]>
+                          </IFrameResource>
+                           <TrackingEvents>
+                              <Tracking event="creativeView">
+                                  <![CDATA[https://vast.interactive-breaks.com/vast/v1/ad/f4562528-c67f-4d0f-be77-cf69d7f76b9b/event/report/track/creativeView?calledFromSection=CAD]]>
+                              </Tracking>
+                              <Tracking event="acceptInvitation">
+                                  <![CDATA[https://vast.interactive-breaks.com/vast/v1/ad/f4562528-c67f-4d0f-be77-cf69d7f76b9b/event/report/track/acceptInvitation?calledFromSection=CAD]]>
+                              </Tracking>
+                              <Tracking event="nasbUiStart">
+                                  <![CDATA[https://vast.interactive-breaks.com/vast/v1/ad/f4562528-c67f-4d0f-be77-cf69d7f76b9b/event/report/track/nasbUiStart]]>
+                              </Tracking>
+                              <Tracking event="nasbUiShow">
+                                  <![CDATA[https://vast.interactive-breaks.com/vast/v1/ad/f4562528-c67f-4d0f-be77-cf69d7f76b9b/event/report/track/nasbUiShow]]>
+                              </Tracking>
+                              <Tracking event="nasbUiClose">
+                                  <![CDATA[https://vast.interactive-breaks.com/vast/v1/ad/f4562528-c67f-4d0f-be77-cf69d7f76b9b/event/report/track/nasbUiClose]]>
+                              </Tracking>
+                              <Tracking event="nasbUiError">
+                                  <![CDATA[https://vast.interactive-breaks.com/vast/v1/ad/f4562528-c67f-4d0f-be77-cf69d7f76b9b/event/report/track/nasbUiError?ref_code=[REFCODE]]]>
+                              </Tracking>
+                          </TrackingEvents>
+                      </Companion>
+                  </CompanionAds>
+              </Creative>
+              <Creative id="c7168169-ce60-4492-9938-428b30ba0a2c" sequence="1">
+                  <Linear>
+                      <Duration>00:00:32</Duration>
+                      <TrackingEvents>
+                          <Tracking event="start">
+                              <![CDATA[https://vast.interactive-breaks.com/vast/v1/ad/f4562528-c67f-4d0f-be77-cf69d7f76b9b/event/report/track/start]]>
+                          </Tracking>
+                          <Tracking event="first_quartile">
+                              <![CDATA[https://vast.interactive-breaks.com/vast/v1/ad/f4562528-c67f-4d0f-be77-cf69d7f76b9b/event/report/track/first_quartile]]>
+                          </Tracking>
+                          <Tracking event="fullscreen">
+                              <![CDATA[https://vast.interactive-breaks.com/vast/v1/ad/f4562528-c67f-4d0f-be77-cf69d7f76b9b/event/report/track/fullscreen]]>
+                          </Tracking>
+                          <Tracking event="midpoint">
+                              <![CDATA[https://vast.interactive-breaks.com/vast/v1/ad/f4562528-c67f-4d0f-be77-cf69d7f76b9b/event/report/track/midpoint]]>
+                          </Tracking>
+                          <Tracking event="pause">
+                              <![CDATA[https://vast.interactive-breaks.com/vast/v1/ad/f4562528-c67f-4d0f-be77-cf69d7f76b9b/event/report/track/pause]]>
+                          </Tracking>
+                          <Tracking event="resume">
+                              <![CDATA[https://vast.interactive-breaks.com/vast/v1/ad/f4562528-c67f-4d0f-be77-cf69d7f76b9b/event/report/track/resume]]>
+                          </Tracking>
+                          <Tracking event="rewind">
+                              <![CDATA[https://vast.interactive-breaks.com/vast/v1/ad/f4562528-c67f-4d0f-be77-cf69d7f76b9b/event/report/track/rewind]]>
+                          </Tracking>
+                          <Tracking event="third_quartile">
+                              <![CDATA[https://vast.interactive-breaks.com/vast/v1/ad/f4562528-c67f-4d0f-be77-cf69d7f76b9b/event/report/track/third_quartile]]>
+                          </Tracking>
+                          <Tracking event="unmute">
+                              <![CDATA[https://vast.interactive-breaks.com/vast/v1/ad/f4562528-c67f-4d0f-be77-cf69d7f76b9b/event/report/track/unmute]]>
+                          </Tracking>
+                          <Tracking event="skip">
+                              <![CDATA[https://vast.interactive-breaks.com/vast/v1/ad/f4562528-c67f-4d0f-be77-cf69d7f76b9b/event/report/track/skip]]>
+                          </Tracking>
+                          <Tracking event="complete">
+                              <![CDATA[https://vast.interactive-breaks.com/vast/v1/ad/f4562528-c67f-4d0f-be77-cf69d7f76b9b/event/report/track/complete]]>
+                          </Tracking>
+                      </TrackingEvents>
+                      <MediaFiles>
+                          <MediaFile type="video/mp4" width="1920" height="1080" bitrate="1400" delivery="progressive">
+                              <![CDATA[ https://video.bsg-svc.com/cms/sponsor/08-28-2025/f5835386-0570-47aa-be98-43cb5a5deeb4/f1f721d2-ce98-40d7-8259-239b88798469.mp4 ]]>
+                          </MediaFile>
+                      </MediaFiles>
+                  </Linear>
+              </Creative>
+          </Creatives>
+          <Extensions>
+            <Extension type="application/xml">
+              <CompiledTemplateId>1122334455</CompiledTemplateId>
+            </Extension>
+          </Extensions>
+      </InLine>
+    </Ad>
+</VAST>

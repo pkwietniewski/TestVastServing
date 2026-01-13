@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<VAST xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vast.xsd" version="3.0">
+
+
+  <Ad id="112">
+    <InLine>
+      <AdSystem>AdGear RTB</AdSystem>
+      <AdTitle>Vast In-Stream Video</AdTitle>
+      <Error><![CDATA[http://127.0.0.1:8084/trackers/FcUKcdNNuU5Sm1Y5ChDc9FFd8F8R8IlTwUQaDZqMEgY4NjIzNTkYASC1ASgBMAE4cEABSMCWsQJSX2h0dHA6Ly93d3cudGVjaHJhZGFyLmNvbS9uZXdzL2dhbWluZy94Ym94LWxpdmUtYXJjYWRlLWdhbWVzLWNvbWluZy10by15b3VyLXdpbmRvd3MtOC1wYy0xMTI1MzgxWAFgAWgBcAF4AYABF4oBAwEWcroBEAFZNd6u3xHjnGMEkQAAACnAAQHIARnSAQZBQUFBQUHlAQCyobjoARvwAQz6ARD8hbqj8zdP5KzJalOWG9bfggIQ3PRRwfBfEfCzT8FEGg2ajJICAzEyM5gCANoCAOgCyJiYywaIAwCoAwDiBBAAAAAAAAAAAAAA__-4obIA6AUC8QUAAAAAAAD0Pw==/vast3_error_[ERRORCODE].gif]]></Error>
+      <Impression><![CDATA[http://127.0.0.1:8084/impressions/FcUKcdNNuU5Sm1Y5ChDc9FFd8F8R8IlTwUQaDZqMEgY4NjIzNTkYASC1ASgBMAE4cEABSMCWsQJSX2h0dHA6Ly93d3cudGVjaHJhZGFyLmNvbS9uZXdzL2dhbWluZy94Ym94LWxpdmUtYXJjYWRlLWdhbWVzLWNvbWluZy10by15b3VyLXdpbmRvd3MtOC1wYy0xMTI1MzgxWAFgAWgBcAF4AYABF4oBAwEWcroBEAFZNd6u3xHjnGMEkQAAACnAAQHIARnSAQZBQUFBQUHlAQCyobjoARvwAQz6ARD8hbqj8zdP5KzJalOWG9bfggIQ3PRRwfBfEfCzT8FEGg2ajJICAzEyM5gCANoCAOgCyJiYywaIAwCoAwDiBBAAAAAAAAAAAAAA__-4obIA6AUC8QUAAAAAAAD0Pw==/112.gif?AG_WP=0&AG_IT=1&AG_LP=0&AG_R=123456]]></Impression>
+
+
+      <Impression><![CDATA[http://cm.adgrx.com/bridge?AG_PID=appnexus]]></Impression>
+
+      <Creatives>
+        <Creative sequence="1">
+          <Linear>
+            <Duration>00:00:15</Duration>
+
+            <TrackingEvents>
+              <Tracking event="complete"><![CDATA[http://127.0.0.1:8084/trackers/FcUKcdNNuU5Sm1Y5ChDc9FFd8F8R8IlTwUQaDZqMEgY4NjIzNTkYASC1ASgBMAE4cEABSMCWsQJSX2h0dHA6Ly93d3cudGVjaHJhZGFyLmNvbS9uZXdzL2dhbWluZy94Ym94LWxpdmUtYXJjYWRlLWdhbWVzLWNvbWluZy10by15b3VyLXdpbmRvd3MtOC1wYy0xMTI1MzgxWAFgAWgBcAF4AYABF4oBAwEWcroBEAFZNd6u3xHjnGMEkQAAACnAAQHIARnSAQZBQUFBQUHlAQCyobjoARvwAQz6ARD8hbqj8zdP5KzJalOWG9bfggIQ3PRRwfBfEfCzT8FEGg2ajJICAzEyM5gCANoCAOgCyJiYywaIAwCoAwDiBBAAAAAAAAAAAAAA__-4obIA6AUC8QUAAAAAAAD0Pw==/complete.gif]]></Tracking>
+              <Tracking event="firstQuartile"><![CDATA[http://127.0.0.1:8084/trackers/FcUKcdNNuU5Sm1Y5ChDc9FFd8F8R8IlTwUQaDZqMEgY4NjIzNTkYASC1ASgBMAE4cEABSMCWsQJSX2h0dHA6Ly93d3cudGVjaHJhZGFyLmNvbS9uZXdzL2dhbWluZy94Ym94LWxpdmUtYXJjYWRlLWdhbWVzLWNvbWluZy10by15b3VyLXdpbmRvd3MtOC1wYy0xMTI1MzgxWAFgAWgBcAF4AYABF4oBAwEWcroBEAFZNd6u3xHjnGMEkQAAACnAAQHIARnSAQZBQUFBQUHlAQCyobjoARvwAQz6ARD8hbqj8zdP5KzJalOWG9bfggIQ3PRRwfBfEfCzT8FEGg2ajJICAzEyM5gCANoCAOgCyJiYywaIAwCoAwDiBBAAAAAAAAAAAAAA__-4obIA6AUC8QUAAAAAAAD0Pw==/first_quartile.gif]]></Tracking>
+              <Tracking event="fullscreen"><![CDATA[http://127.0.0.1:8084/trackers/FcUKcdNNuU5Sm1Y5ChDc9FFd8F8R8IlTwUQaDZqMEgY4NjIzNTkYASC1ASgBMAE4cEABSMCWsQJSX2h0dHA6Ly93d3cudGVjaHJhZGFyLmNvbS9uZXdzL2dhbWluZy94Ym94LWxpdmUtYXJjYWRlLWdhbWVzLWNvbWluZy10by15b3VyLXdpbmRvd3MtOC1wYy0xMTI1MzgxWAFgAWgBcAF4AYABF4oBAwEWcroBEAFZNd6u3xHjnGMEkQAAACnAAQHIARnSAQZBQUFBQUHlAQCyobjoARvwAQz6ARD8hbqj8zdP5KzJalOWG9bfggIQ3PRRwfBfEfCzT8FEGg2ajJICAzEyM5gCANoCAOgCyJiYywaIAwCoAwDiBBAAAAAAAAAAAAAA__-4obIA6AUC8QUAAAAAAAD0Pw==/fullscreen.gif]]></Tracking>
+              <Tracking event="midpoint"><![CDATA[http://127.0.0.1:8084/trackers/FcUKcdNNuU5Sm1Y5ChDc9FFd8F8R8IlTwUQaDZqMEgY4NjIzNTkYASC1ASgBMAE4cEABSMCWsQJSX2h0dHA6Ly93d3cudGVjaHJhZGFyLmNvbS9uZXdzL2dhbWluZy94Ym94LWxpdmUtYXJjYWRlLWdhbWVzLWNvbWluZy10by15b3VyLXdpbmRvd3MtOC1wYy0xMTI1MzgxWAFgAWgBcAF4AYABF4oBAwEWcroBEAFZNd6u3xHjnGMEkQAAACnAAQHIARnSAQZBQUFBQUHlAQCyobjoARvwAQz6ARD8hbqj8zdP5KzJalOWG9bfggIQ3PRRwfBfEfCzT8FEGg2ajJICAzEyM5gCANoCAOgCyJiYywaIAwCoAwDiBBAAAAAAAAAAAAAA__-4obIA6AUC8QUAAAAAAAD0Pw==/midpoint.gif]]></Tracking>
+              <Tracking event="mute"><![CDATA[http://127.0.0.1:8084/trackers/FcUKcdNNuU5Sm1Y5ChDc9FFd8F8R8IlTwUQaDZqMEgY4NjIzNTkYASC1ASgBMAE4cEABSMCWsQJSX2h0dHA6Ly93d3cudGVjaHJhZGFyLmNvbS9uZXdzL2dhbWluZy94Ym94LWxpdmUtYXJjYWRlLWdhbWVzLWNvbWluZy10by15b3VyLXdpbmRvd3MtOC1wYy0xMTI1MzgxWAFgAWgBcAF4AYABF4oBAwEWcroBEAFZNd6u3xHjnGMEkQAAACnAAQHIARnSAQZBQUFBQUHlAQCyobjoARvwAQz6ARD8hbqj8zdP5KzJalOWG9bfggIQ3PRRwfBfEfCzT8FEGg2ajJICAzEyM5gCANoCAOgCyJiYywaIAwCoAwDiBBAAAAAAAAAAAAAA__-4obIA6AUC8QUAAAAAAAD0Pw==/mute.gif]]></Tracking>
+              <Tracking event="pause"><![CDATA[http://127.0.0.1:8084/trackers/FcUKcdNNuU5Sm1Y5ChDc9FFd8F8R8IlTwUQaDZqMEgY4NjIzNTkYASC1ASgBMAE4cEABSMCWsQJSX2h0dHA6Ly93d3cudGVjaHJhZGFyLmNvbS9uZXdzL2dhbWluZy94Ym94LWxpdmUtYXJjYWRlLWdhbWVzLWNvbWluZy10by15b3VyLXdpbmRvd3MtOC1wYy0xMTI1MzgxWAFgAWgBcAF4AYABF4oBAwEWcroBEAFZNd6u3xHjnGMEkQAAACnAAQHIARnSAQZBQUFBQUHlAQCyobjoARvwAQz6ARD8hbqj8zdP5KzJalOWG9bfggIQ3PRRwfBfEfCzT8FEGg2ajJICAzEyM5gCANoCAOgCyJiYywaIAwCoAwDiBBAAAAAAAAAAAAAA__-4obIA6AUC8QUAAAAAAAD0Pw==/pause.gif]]></Tracking>
+              <Tracking event="resume"><![CDATA[http://127.0.0.1:8084/trackers/FcUKcdNNuU5Sm1Y5ChDc9FFd8F8R8IlTwUQaDZqMEgY4NjIzNTkYASC1ASgBMAE4cEABSMCWsQJSX2h0dHA6Ly93d3cudGVjaHJhZGFyLmNvbS9uZXdzL2dhbWluZy94Ym94LWxpdmUtYXJjYWRlLWdhbWVzLWNvbWluZy10by15b3VyLXdpbmRvd3MtOC1wYy0xMTI1MzgxWAFgAWgBcAF4AYABF4oBAwEWcroBEAFZNd6u3xHjnGMEkQAAACnAAQHIARnSAQZBQUFBQUHlAQCyobjoARvwAQz6ARD8hbqj8zdP5KzJalOWG9bfggIQ3PRRwfBfEfCzT8FEGg2ajJICAzEyM5gCANoCAOgCyJiYywaIAwCoAwDiBBAAAAAAAAAAAAAA__-4obIA6AUC8QUAAAAAAAD0Pw==/resume.gif]]></Tracking>
+              <Tracking event="rewind"><![CDATA[http://127.0.0.1:8084/trackers/FcUKcdNNuU5Sm1Y5ChDc9FFd8F8R8IlTwUQaDZqMEgY4NjIzNTkYASC1ASgBMAE4cEABSMCWsQJSX2h0dHA6Ly93d3cudGVjaHJhZGFyLmNvbS9uZXdzL2dhbWluZy94Ym94LWxpdmUtYXJjYWRlLWdhbWVzLWNvbWluZy10by15b3VyLXdpbmRvd3MtOC1wYy0xMTI1MzgxWAFgAWgBcAF4AYABF4oBAwEWcroBEAFZNd6u3xHjnGMEkQAAACnAAQHIARnSAQZBQUFBQUHlAQCyobjoARvwAQz6ARD8hbqj8zdP5KzJalOWG9bfggIQ3PRRwfBfEfCzT8FEGg2ajJICAzEyM5gCANoCAOgCyJiYywaIAwCoAwDiBBAAAAAAAAAAAAAA__-4obIA6AUC8QUAAAAAAAD0Pw==/rewind.gif]]></Tracking>
+              <Tracking event="start"><![CDATA[http://127.0.0.1:8084/trackers/FcUKcdNNuU5Sm1Y5ChDc9FFd8F8R8IlTwUQaDZqMEgY4NjIzNTkYASC1ASgBMAE4cEABSMCWsQJSX2h0dHA6Ly93d3cudGVjaHJhZGFyLmNvbS9uZXdzL2dhbWluZy94Ym94LWxpdmUtYXJjYWRlLWdhbWVzLWNvbWluZy10by15b3VyLXdpbmRvd3MtOC1wYy0xMTI1MzgxWAFgAWgBcAF4AYABF4oBAwEWcroBEAFZNd6u3xHjnGMEkQAAACnAAQHIARnSAQZBQUFBQUHlAQCyobjoARvwAQz6ARD8hbqj8zdP5KzJalOWG9bfggIQ3PRRwfBfEfCzT8FEGg2ajJICAzEyM5gCANoCAOgCyJiYywaIAwCoAwDiBBAAAAAAAAAAAAAA__-4obIA6AUC8QUAAAAAAAD0Pw==/start.gif]]></Tracking>
+              <Tracking event="thirdQuartile"><![CDATA[http://127.0.0.1:8084/trackers/FcUKcdNNuU5Sm1Y5ChDc9FFd8F8R8IlTwUQaDZqMEgY4NjIzNTkYASC1ASgBMAE4cEABSMCWsQJSX2h0dHA6Ly93d3cudGVjaHJhZGFyLmNvbS9uZXdzL2dhbWluZy94Ym94LWxpdmUtYXJjYWRlLWdhbWVzLWNvbWluZy10by15b3VyLXdpbmRvd3MtOC1wYy0xMTI1MzgxWAFgAWgBcAF4AYABF4oBAwEWcroBEAFZNd6u3xHjnGMEkQAAACnAAQHIARnSAQZBQUFBQUHlAQCyobjoARvwAQz6ARD8hbqj8zdP5KzJalOWG9bfggIQ3PRRwfBfEfCzT8FEGg2ajJICAzEyM5gCANoCAOgCyJiYywaIAwCoAwDiBBAAAAAAAAAAAAAA__-4obIA6AUC8QUAAAAAAAD0Pw==/third_quartile.gif]]></Tracking>
+              <Tracking event="unmute"><![CDATA[http://127.0.0.1:8084/trackers/FcUKcdNNuU5Sm1Y5ChDc9FFd8F8R8IlTwUQaDZqMEgY4NjIzNTkYASC1ASgBMAE4cEABSMCWsQJSX2h0dHA6Ly93d3cudGVjaHJhZGFyLmNvbS9uZXdzL2dhbWluZy94Ym94LWxpdmUtYXJjYWRlLWdhbWVzLWNvbWluZy10by15b3VyLXdpbmRvd3MtOC1wYy0xMTI1MzgxWAFgAWgBcAF4AYABF4oBAwEWcroBEAFZNd6u3xHjnGMEkQAAACnAAQHIARnSAQZBQUFBQUHlAQCyobjoARvwAQz6ARD8hbqj8zdP5KzJalOWG9bfggIQ3PRRwfBfEfCzT8FEGg2ajJICAzEyM5gCANoCAOgCyJiYywaIAwCoAwDiBBAAAAAAAAAAAAAA__-4obIA6AUC8QUAAAAAAAD0Pw==/unmute.gif]]></Tracking>
+
+              <Tracking event="skip"><![CDATA[http://127.0.0.1:8084/trackers/FcUKcdNNuU5Sm1Y5ChDc9FFd8F8R8IlTwUQaDZqMEgY4NjIzNTkYASC1ASgBMAE4cEABSMCWsQJSX2h0dHA6Ly93d3cudGVjaHJhZGFyLmNvbS9uZXdzL2dhbWluZy94Ym94LWxpdmUtYXJjYWRlLWdhbWVzLWNvbWluZy10by15b3VyLXdpbmRvd3MtOC1wYy0xMTI1MzgxWAFgAWgBcAF4AYABF4oBAwEWcroBEAFZNd6u3xHjnGMEkQAAACnAAQHIARnSAQZBQUFBQUHlAQCyobjoARvwAQz6ARD8hbqj8zdP5KzJalOWG9bfggIQ3PRRwfBfEfCzT8FEGg2ajJICAzEyM5gCANoCAOgCyJiYywaIAwCoAwDiBBAAAAAAAAAAAAAA__-4obIA6AUC8QUAAAAAAAD0Pw==/skip.gif]]></Tracking>
+
+
+            </TrackingEvents>
+            <VideoClicks>
+              <ClickThrough><![CDATA[https://mock_url.com]]></ClickThrough>
+              <ClickTracking><![CDATA[http://127.0.0.1:8084/clicks/FcUKcdNNuU5Sm1Y5ChDc9FFd8F8R8IlTwUQaDZqMEgY4NjIzNTkYASC1ASgBMAE4cEABSMCWsQJSX2h0dHA6Ly93d3cudGVjaHJhZGFyLmNvbS9uZXdzL2dhbWluZy94Ym94LWxpdmUtYXJjYWRlLWdhbWVzLWNvbWluZy10by15b3VyLXdpbmRvd3MtOC1wYy0xMTI1MzgxWAFgAWgBcAF4AYABF4oBAwEWcroBEAFZNd6u3xHjnGMEkQAAACnAAQHIARnSAQZBQUFBQUHlAQCyobjoARvwAQz6ARD8hbqj8zdP5KzJalOWG9bfggIQ3PRRwfBfEfCzT8FEGg2ajJICAzEyM5gCANoCAOgCyJiYywaIAwCoAwDiBBAAAAAAAAAAAAAA__-4obIA6AUC8QUAAAAAAAD0Pw==/]]></ClickTracking>
+
+            </VideoClicks>
+            <MediaFiles>
+
+              <MediaFile delivery="progressive" type="video/mp4" bitrate="1400" width="1920" height="1080">
+                <![CDATA[http://https://127.0.0.1?assets/first_with_qrcode.mp4]]>
+              </MediaFile>
+
+            </MediaFiles>
+          </Linear>
+        </Creative>
+
+        <Creative>
+          <CompanionAds>
+            <Companion id="112" width="320"  height="480"  apiFramework="samsunginteractivead">
+
+
+              <IFrameResource>
+                <![CDATA[ https://tvp-interactive-ad-
+prod.samsungads.com/interactive-ad-overlay/click-to-email/horizontal/
+index.html]]>
+              </IFrameResource>
+              <TrackingEvents>
+                <Tracking event="creativeView"><![CDATA[http://127.0.0.1:8084/trackers/FcUKcdNNuU5Sm1Y5ChDc9FFd8F8R8IlTwUQaDZqMEgY4NjIzNTkYASC1ASgBMAE4cEABSMCWsQJSX2h0dHA6Ly93d3cudGVjaHJhZGFyLmNvbS9uZXdzL2dhbWluZy94Ym94LWxpdmUtYXJjYWRlLWdhbWVzLWNvbWluZy10by15b3VyLXdpbmRvd3MtOC1wYy0xMTI1MzgxWAFgAWgBcAF4AYABF4oBAwEWcroBEAFZNd6u3xHjnGMEkQAAACnAAQHIARnSAQZBQUFBQUHlAQCyobjoARvwAQz6ARD8hbqj8zdP5KzJalOWG9bfggIQ3PRRwfBfEfCzT8FEGg2ajJICAzEyM5gCANoCAOgCyJiYywaIAwCoAwDiBBAAAAAAAAAAAAAA__-4obIA6AUC8QUAAAAAAAD0Pw==/creative_view.gif]]></Tracking>
+                <Tracking event="acceptInvitation"><![CDATA[http://127.0.0.1:8084/trackers/FcUKcdNNuU5Sm1Y5ChDc9FFd8F8R8IlTwUQaDZqMEgY4NjIzNTkYASC1ASgBMAE4cEABSMCWsQJSX2h0dHA6Ly93d3cudGVjaHJhZGFyLmNvbS9uZXdzL2dhbWluZy94Ym94LWxpdmUtYXJjYWRlLWdhbWVzLWNvbWluZy10by15b3VyLXdpbmRvd3MtOC1wYy0xMTI1MzgxWAFgAWgBcAF4AYABF4oBAwEWcroBEAFZNd6u3xHjnGMEkQAAACnAAQHIARnSAQZBQUFBQUHlAQCyobjoARvwAQz6ARD8hbqj8zdP5KzJalOWG9bfggIQ3PRRwfBfEfCzT8FEGg2ajJICAzEyM5gCANoCAOgCyJiYywaIAwCoAwDiBBAAAAAAAAAAAAAA__-4obIA6AUC8QUAAAAAAAD0Pw==/accept_invitation.gif]]></Tracking>
+              </TrackingEvents>
+
+
+            </Companion>
+          </CompanionAds>
+        </Creative>
+
+      </Creatives>
+      <Extensions>
+        <Extension type="application/xml">
+          <QrCodeUrl>https://samsung.com</QrCodeUrl>
+        </Extension>
+        <Extension type="application/xml">
+          <CompiledTemplateId>4071bfc259a14d7ca8860ca2cda6e8b6</CompiledTemplateId>
+        </Extension>
+        <Extension type="application/xml">
+        <TvAdCtaButtonText>Press Select to Send Deal</TvAdCtaButtonText>
+        </Extension>
+        <Extension type="application/xml">
+        <InteractionType>click_to_email</InteractionType>
+        </Extension>
+        <Extension type="application/xml">
+        <AdDuration>00:00:15</AdDuration>
+        </Extension>
+        <Extension type="application/xml">
+        <DealName>AAAAAA</DealName>
+        </Extension>
+        <Extension type="application/xml">
+        <ActiveMargin>0.1</ActiveMargin>
+        </Extension>
+        <Extension type="application/xml">
+        <NetUnitCost>0.1</NetUnitCost>
+        </Extension>
+        <Extension type="application/xml">
+        <DSP>Trader</DSP>
+        </Extension>
+        <Extension type="application/xml">
+        <BuyerId>11</BuyerId>
+        </Extension>
+        <Extension type="application/xml">
+        <CampaignId>10</CampaignId>
+        </Extension>
+        <Extension type="application/xml">
+        <FlightId>1</FlightId>
+        </Extension>
+        <Extension type="application/xml">
+        <CreativeId>112</CreativeId>
+        </Extension>
+      </Extensions>
+    </InLine>
+  </Ad>
+</VAST>
