@@ -15,7 +15,7 @@
             <Creatives>
                 <Creative>
                     <Linear>
-                        <Duration>00:00:27</Duration>
+                        <Duration>00:00:30</Duration>
                         <TrackingEvents>
                             <Tracking event="firstQuartile">
 <![CDATA[ https://tpsc-video-eu.doubleverify.com/event.png?vstevt=4&dup=8aa706f0-57eb-49cc-946c-1a220ea2545c ]]>
@@ -53,7 +53,7 @@
                         <MediaFiles>
                             <MediaFile height="1080" width="1920" bitrate="2210" type="video/mp4"
                                 delivery="progressive">
-<![CDATA[ https://video.doubleverify.com/vast-samples/files/DV_FHD.mp4 ]]>
+<![CDATA[ https://file-examples.com/wp-content/storage/2017/04/file_example_MP4_1920_18MG.mp4 ]]>
 </MediaFile>
                         </MediaFiles>
                     </Linear>
