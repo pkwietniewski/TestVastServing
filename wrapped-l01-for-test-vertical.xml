@@ -51,7 +51,7 @@
 </ClickTracking>
                         </VideoClicks>
                         <MediaFiles>
-                            <MediaFile height="1080" width="1920" bitrate="2210" type="video/mp4"
+                            <MediaFile height="1920" width="1080" bitrate="2210" type="video/mp4"
                                 delivery="progressive">
 <![CDATA[ https://cdn.adgrx.com/uploads/dB/P0r3C5xdvN4FYDGCRxqA/15439750-hd_1080_1920_30fps.mp4 ]]>
 </MediaFile>
