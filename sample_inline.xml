@@ -5,9 +5,12 @@
       <AdTitle>VAST 2.0 Instream Test 1 Inline</AdTitle>
       <Description>VAST 2.0 Instream Test 1 Inline</Description>
       <Error>http://example.com/error_Inline</Error>
+      <Advertiser>Third Party Advertiser</Advertiser>
+      <Pricing model="CPC" currency="PLN"></Pricing>
+      <Survey>http://example.com/SURVEY/Inline</Survey>
       <Impression>http://example.com/track/impression/Inline</Impression>
       <Creatives>
-        <Creative AdID="601364">
+        <Creative AdID="601364" id="tp_id" sequence="tp_seq" apiFrameworek="tp_api">
           <Linear>
             <Duration>00:00:30</Duration>
             <TrackingEvents>
