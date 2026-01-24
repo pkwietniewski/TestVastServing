@@ -5,7 +5,6 @@
       <AdTitle>VAST 2.0 Instream Test 1 Inline</AdTitle>
       <Description>VAST 2.0 Instream Test 1 Inline</Description>
       <Error>http://example.com/error_Inline</Error>
-      <Advertiser>Third Party Advertiser</Advertiser>
       <Pricing model="CPC" currency="PLN">3000</Pricing>
       <Survey>http://example.com/SURVEY/Inline</Survey>
       <Impression>http://example.com/track/impression/Inline</Impression>
