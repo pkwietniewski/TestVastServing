@@ -2,10 +2,10 @@
   <Ad id="601364">
     <InLine>
       <AdSystem>Acudeo Compatible Inline</AdSystem>
-      <AdTitle>VAST 2.0 Instream Test 1</AdTitle>
-      <Description>VAST 2.0 Instream Test 1</Description>
-      <Error>http://example.com/error</Error>
-      <Impression>http://example.com/track/impression</Impression>
+      <AdTitle>VAST 2.0 Instream Test 1 Inline</AdTitle>
+      <Description>VAST 2.0 Instream Test 1 Inline</Description>
+      <Error>http://example.com/error_Inline</Error>
+      <Impression>http://example.com/track/impression/Inline</Impression>
       <Creatives>
         <Creative AdID="601364">
           <Linear>
