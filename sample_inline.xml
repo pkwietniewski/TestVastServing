@@ -9,7 +9,7 @@
       <Survey>http://example.com/SURVEY/Inline</Survey>
       <Impression>http://example.com/track/impression/Inline</Impression>
       <Creatives>
-        <Creative AdID="601364" id="tp_id" sequence="tp_seq" apiFrameworek="tp_api">
+        <Creative AdID="601364" id="tp_id" sequence="tp_seq" apiFramework="tp_api">
           <Linear>
             <Duration>00:00:30</Duration>
             <TrackingEvents>
