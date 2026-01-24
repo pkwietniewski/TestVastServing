@@ -1,7 +1,7 @@
 <VAST version="2.0">
   <Ad id="601364">
     <InLine>
-      <AdSystem>Acudeo Compatible</AdSystem>
+      <AdSystem>Acudeo Compatible Inline</AdSystem>
       <AdTitle>VAST 2.0 Instream Test 1</AdTitle>
       <Description>VAST 2.0 Instream Test 1</Description>
       <Error>http://example.com/error</Error>
