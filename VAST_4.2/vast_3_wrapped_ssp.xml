@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VAST version="4.2">
+  <!-- LAYER 1: Publisher SSP Wrapper -->
+  <Ad id="ssp_wrapper" sequence="1">
+    <Wrapper followAdditionalWrappers="1" allowMultipleAds="0" fallbackOnNoAd="0">
+      <AdSystem version="2.1">Publisher-SSP-Platform</AdSystem>
+      <AdTitle><![CDATA[Layer 1 - Publisher SSP Wrapper]]></AdTitle>
+      <Description><![CDATA[First wrapper layer from publisher supply-side platform]]></Description>
+
+      <!-- Publisher SSP Tracking -->
+      <Impression id="ssp_impression"><![CDATA[https://httpbin.org/status/200?layer=ssp&publisher=pub123&placement=video_slot]]></Impression>
+
+      <!-- Pricing from SSP perspective -->
+      <Pricing model="CPM" currency="USD">12.00</Pricing>
+
+      <Creatives>
+        <Creative id="ssp_creative" sequence="1">
+          <Linear skipoffset="00:00:05">
+            <TrackingEvents>
+              <Tracking event="start"><![CDATA[https://httpbin.org/status/200?layer=ssp&event=start]]></Tracking>
+              <Tracking event="firstQuartile"><![CDATA[https://httpbin.org/status/200?layer=ssp&event=q1]]></Tracking>
+              <Tracking event="midpoint"><![CDATA[https://httpbin.org/status/200?layer=ssp&event=midpoint]]></Tracking>
+              <Tracking event="thirdQuartile"><![CDATA[https://httpbin.org/status/200?layer=ssp&event=q3]]></Tracking>
+              <Tracking event="complete"><![CDATA[https://httpbin.org/status/200?layer=ssp&event=complete]]></Tracking>
+              <Tracking event="skip"><![CDATA[https://httpbin.org/status/200?layer=ssp&event=skip]]></Tracking>
+              <Tracking event="mute"><![CDATA[https://httpbin.org/status/200?layer=ssp&event=mute]]></Tracking>
+              <Tracking event="unmute"><![CDATA[https://httpbin.org/status/200?layer=ssp&event=unmute]]></Tracking>
+              <Tracking event="pause"><![CDATA[https://httpbin.org/status/200?layer=ssp&event=pause]]></Tracking>
+              <Tracking event="resume"><![CDATA[https://httpbin.org/status/200?layer=ssp&event=resume]]></Tracking>
+              <Tracking event="fullscreen"><![CDATA[https://httpbin.org/status/200?layer=ssp&event=fullscreen]]></Tracking>
+              <Tracking event="exitFullscreen"><![CDATA[https://httpbin.org/status/200?layer=ssp&event=exitfullscreen]]></Tracking>
+            </TrackingEvents>
+
+            <VideoClicks>
+              <ClickTracking id="ssp_click"><![CDATA[https://httpbin.org/status/200?layer=ssp&event=click]]></ClickTracking>
+            </VideoClicks>
+          </Linear>
+        </Creative>
+      </Creatives>
+
+      <!-- Points to Layer 2 (Ad Exchange) -->
+      <VASTAdTagURI><![CDATA[https://raw.githubusercontent.com/pkwietniewski/TestVastServing/refs/heads/main/VAST_4.2/vast_2_wrapped_exchange]]></VASTAdTagURI>
+
+      <!-- Error Tracking -->
+      <Error><![CDATA[https://httpbin.org/status/200?layer=ssp&error=[ERRORCODE]]]></Error>
+
+      <!-- SSP Extensions -->
+      <Extensions>
+        <Extension type="ssp_data">
+          <PublisherID>pub_12345</PublisherID>
+          <SiteID>site_67890</SiteID>
+          <PlacementID>placement_video_001</PlacementID>
+          <FloorPrice currency="USD">10.00</FloorPrice>
+          <WaterfallPosition>1</WaterfallPosition>
+        </Extension>
+      </Extensions>
+
+      <!-- Viewability Tracking -->
+      <ViewableImpression id="ssp_viewable">
+        <Viewable><![CDATA[https://httpbin.org/status/200?layer=ssp&viewable=true]]></Viewable>
+        <NotViewable><![CDATA[https://httpbin.org/status/200?layer=ssp&viewable=false]]></NotViewable>
+        <ViewUndetermined><![CDATA[https://httpbin.org/status/200?layer=ssp&viewable=unknown]]></ViewUndetermined>
+      </ViewableImpression>
+    </Wrapper>
+  </Ad>
+</VAST>

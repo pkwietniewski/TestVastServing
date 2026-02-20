@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VAST version="4.2">
+  <!-- LAYER 3: DSP/Agency Wrapper -->
+  <Ad id="dsp_wrapper" sequence="1">
+    <Wrapper followAdditionalWrappers="0" allowMultipleAds="0" fallbackOnNoAd="0">
+      <AdSystem version="4.0">DSP-AgencyTradingDesk</AdSystem>
+      <AdTitle><![CDATA[Layer 3 - DSP/Agency Wrapper]]></AdTitle>
+      <Description><![CDATA[Third wrapper layer from demand-side platform or agency trading desk]]></Description>
+      <Advertiser><![CDATA[Nike Inc via Global Media Agency]]></Advertiser>
+      <Survey><![CDATA[https://httpbin.org/status/200?survey=dsp&campaign=nike_summer]]></Survey>
+
+      <!-- DSP/Agency Tracking -->
+      <Impression id="dsp_impression_1"><![CDATA[https://httpbin.org/status/200?layer=dsp&impression=true&campaign=nike_summer&line_item=li_001]]></Impression>
+      <Impression id="dsp_impression_2"><![CDATA[https://httpbin.org/status/200?layer=dsp&impression=agency&advertiser=nike&campaign=summer2024]]></Impression>
+      <Impression id="dsp_impression_3"><![CDATA[https://httpbin.org/status/200?layer=dsp&billing=true&cost=15.50&advertiser=nike]]></Impression>
+
+      <!-- DSP Pricing -->
+      <Pricing model="CPM" currency="USD">15.50</Pricing>
+
+      <Creatives>
+        <Creative id="dsp_creative" sequence="1" adId="dsp_ad_003">
+          <Linear skipoffset="00:00:05">
+            <Duration>00:00:30</Duration>
+
+            <TrackingEvents>
+              <Tracking event="start"><![CDATA[https://httpbin.org/status/200?layer=dsp&event=start&campaign=nike_summer]]></Tracking>
+              <Tracking event="firstQuartile"><![CDATA[https://httpbin.org/status/200?layer=dsp&event=q1&campaign=nike_summer]]></Tracking>
+              <Tracking event="midpoint"><![CDATA[https://httpbin.org/status/200?layer=dsp&event=midpoint&campaign=nike_summer]]></Tracking>
+              <Tracking event="thirdQuartile"><![CDATA[https://httpbin.org/status/200?layer=dsp&event=q3&campaign=nike_summer]]></Tracking>
+              <Tracking event="complete"><![CDATA[https://httpbin.org/status/200?layer=dsp&event=complete&campaign=nike_summer]]></Tracking>
+              <Tracking event="skip"><![CDATA[https://httpbin.org/status/200?layer=dsp&event=skip&campaign=nike_summer]]></Tracking>
+              <Tracking event="mute"><![CDATA[https://httpbin.org/status/200?layer=dsp&event=mute]]></Tracking>
+              <Tracking event="unmute"><![CDATA[https://httpbin.org/status/200?layer=dsp&event=unmute]]></Tracking>
+              <Tracking event="pause"><![CDATA[https://httpbin.org/status/200?layer=dsp&event=pause]]></Tracking>
+              <Tracking event="resume"><![CDATA[https://httpbin.org/status/200?layer=dsp&event=resume]]></Tracking>
+              <Tracking event="fullscreen"><![CDATA[https://httpbin.org/status/200?layer=dsp&event=fullscreen]]></Tracking>
+              <Tracking event="exitFullscreen"><![CDATA[https://httpbin.org/status/200?layer=dsp&event=exitfullscreen]]></Tracking>
+              <Tracking event="acceptInvitation"><![CDATA[https://httpbin.org/status/200?layer=dsp&event=accept]]></Tracking>
+              <Tracking event="adExpand"><![CDATA[https://httpbin.org/status/200?layer=dsp&event=expand]]></Tracking>
+              <Tracking event="adCollapse"><![CDATA[https://httpbin.org/status/200?layer=dsp&event=collapse]]></Tracking>
+              <Tracking event="minimize"><![CDATA[https://httpbin.org/status/200?layer=dsp&event=minimize]]></Tracking>
+              <Tracking event="overlayViewDuration" offset="00:00:15"><![CDATA[https://httpbin.org/status/200?layer=dsp&event=overlay15]]></Tracking>
+            </TrackingEvents>
+
+            <VideoClicks>
+              <ClickTracking id="dsp_click_1"><![CDATA[https://httpbin.org/status/200?layer=dsp&event=click&campaign=nike_summer&creative=video_30s]]></ClickTracking>
+              <ClickTracking id="dsp_click_2"><![CDATA[https://httpbin.org/status/200?layer=dsp&event=click&advertiser=nike]]></ClickTracking>
+            </VideoClicks>
+          </Linear>
+        </Creative>
+      </Creatives>
+
+      <!-- Points to Final Creative -->
+      <VASTAdTagURI><![CDATA[https://raw.githubusercontent.com/pkwietniewski/TestVastServing/refs/heads/main/VAST_4.2/vast_orig]]></VASTAdTagURI>
+
+      <!-- Error Tracking -->
+      <Error><![CDATA[https://httpbin.org/status/200?layer=dsp&error=[ERRORCODE]&campaign=nike_summer]]></Error>
+
+      <!-- DSP Extensions -->
+      <Extensions>
+        <Extension type="dsp_campaign_data">
+          <CampaignID>nike_summer_2024</CampaignID>
+          <LineItemID>li_001</LineItemID>
+          <CreativeID>nike_video_30s_v2</CreativeID>
+          <AdvertiserID>nike_inc</AdvertiserID>
+          <AgencyID>global_media_agency</AgencyID>
+          <BrandID>nike</BrandID>
+          <ProductCategory>Athletic_Footwear</ProductCategory>
+          <TargetingData>
+            <Demographics>18-34</Demographics>
+            <Interests>Sports,Fitness,Running</Interests>
+            <Geography>US,CA,UK</Geography>
+          </TargetingData>
+          <FrequencyCap>3</FrequencyCap>
+          <DayPartTargeting>6-23</DayPartTargeting>
+        </Extension>
+        <Extension type="measurement_vendors">
+          <Vendor name="Nielsen">
+            <Parameter name="clientID">nike_nielsen_123</Parameter>
+            <Parameter name="campaignID">nike_summer_dcr</Parameter>
+          </Vendor>
+          <Vendor name="ComScore">
+            <Parameter name="c2">nike_comscore_id</Parameter>
+            <Parameter name="campaignID">nike_summer_cs</Parameter>
+          </Vendor>
+        </Extension>
+        <Extension type="brand_safety">
+          <Vendor name="DoubleVerify">
+            <Parameter name="ctx">nike_brand_safety</Parameter>
+            <Parameter name="cmp">nike_summer</Parameter>
+          </Vendor>
+        </Extension>
+      </Extensions>
+
+      <!-- DSP Viewability -->
+      <ViewableImpression id="dsp_viewable">
+        <Viewable><![CDATA[https://httpbin.org/status/200?layer=dsp&viewable=true&campaign=nike_summer]]></Viewable>
+        <NotViewable><![CDATA[https://httpbin.org/status/200?layer=dsp&viewable=false&campaign=nike_summer]]></NotViewable>
+        <ViewUndetermined><![CDATA[https://httpbin.org/status/200?layer=dsp&viewable=unknown&campaign=nike_summer]]></ViewUndetermined>
+      </ViewableImpression>
+    </Wrapper>
+  </Ad>
+</VAST>
