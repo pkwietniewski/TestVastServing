@@ -51,7 +51,7 @@
       </Creatives>
 
       <!-- Points to Final Creative -->
-      <VASTAdTagURI><![CDATA[https://raw.githubusercontent.com/pkwietniewski/TestVastServing/refs/heads/main/VAST_4.2/vast_orig]]></VASTAdTagURI>
+      <VASTAdTagURI><![CDATA[https://raw.githubusercontent.com/pkwietniewski/TestVastServing/refs/heads/main/VAST_4.2/vast_orig.xml]]></VASTAdTagURI>
 
       <!-- Error Tracking -->
       <Error><![CDATA[https://httpbin.org/status/200?layer=dsp&error=[ERRORCODE]&campaign=nike_summer]]></Error>

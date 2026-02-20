@@ -39,7 +39,7 @@
       </Creatives>
 
       <!-- Points to Layer 2 (Ad Exchange) -->
-      <VASTAdTagURI><![CDATA[https://raw.githubusercontent.com/pkwietniewski/TestVastServing/refs/heads/main/VAST_4.2/vast_2_wrapped_exchange]]></VASTAdTagURI>
+      <VASTAdTagURI><![CDATA[https://raw.githubusercontent.com/pkwietniewski/TestVastServing/refs/heads/main/VAST_4.2/vast_2_wrapped_exchange.xml]]></VASTAdTagURI>
 
       <!-- Error Tracking -->
       <Error><![CDATA[https://httpbin.org/status/200?layer=ssp&error=[ERRORCODE]]]></Error>

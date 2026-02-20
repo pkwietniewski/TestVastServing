@@ -4,7 +4,7 @@
   <Ad id="exchange_wrapper_v3" sequence="1">
     <Wrapper>
       <AdSystem version="3.0">AdExchange-Marketplace-v3</AdSystem>
-      <VASTAdTagURI><![CDATA[https://raw.githubusercontent.com/pkwietniewski/TestVastServing/refs/heads/main/VAST_3.0/vast_2_wrapped_exchange]]></VASTAdTagURI>
+      <VASTAdTagURI><![CDATA[https://raw.githubusercontent.com/pkwietniewski/TestVastServing/refs/heads/main/VAST_3.0/vast_2_wrapped_exchange.xml]]></VASTAdTagURI>
       <Error><![CDATA[https://httpbin.org/status/200?layer=exchange&error=[ERRORCODE]&auction=abc123&version=3.0]]></Error>
       <Impression><![CDATA[https://httpbin.org/status/200?layer=exchange&auction=abc123&winner=dsp456&version=3.0]]></Impression>
 
