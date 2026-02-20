@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VAST version="3.0">
+  <!-- LAYER 2: Ad Exchange Wrapper - VAST 3.0 -->
+  <Ad id="exchange_wrapper_v3" sequence="1">
+    <Wrapper>
+      <AdSystem version="3.0">AdExchange-Marketplace-v3</AdSystem>
+      <VASTAdTagURI><![CDATA[https://raw.githubusercontent.com/pkwietniewski/TestVastServing/refs/heads/main/VAST_3.0/vast_2_wrapped_exchange]]></VASTAdTagURI>
+      <Error><![CDATA[https://httpbin.org/status/200?layer=exchange&error=[ERRORCODE]&auction=abc123&version=3.0]]></Error>
+      <Impression><![CDATA[https://httpbin.org/status/200?layer=exchange&auction=abc123&winner=dsp456&version=3.0]]></Impression>
+
+      <Creatives>
+        <Creative id="exchange_creative_v3" sequence="1" adId="exchange_ad_v3">
+          <Linear>
+            <Duration>00:00:30</Duration>
+
+            <TrackingEvents>
+              <Tracking event="start"><![CDATA[https://httpbin.org/status/200?layer=exchange&event=start&auction=abc123&version=3.0]]></Tracking>
+              <Tracking event="firstQuartile"><![CDATA[https://httpbin.org/status/200?layer=exchange&event=q1&auction=abc123&version=3.0]]></Tracking>
+              <Tracking event="midpoint"><![CDATA[https://httpbin.org/status/200?layer=exchange&event=midpoint&auction=abc123&version=3.0]]></Tracking>
+              <Tracking event="thirdQuartile"><![CDATA[https://httpbin.org/status/200?layer=exchange&event=q3&auction=abc123&version=3.0]]></Tracking>
+              <Tracking event="complete"><![CDATA[https://httpbin.org/status/200?layer=exchange&event=complete&auction=abc123&version=3.0]]></Tracking>
+              <Tracking event="mute"><![CDATA[https://httpbin.org/status/200?layer=exchange&event=mute&version=3.0]]></Tracking>
+              <Tracking event="unmute"><![CDATA[https://httpbin.org/status/200?layer=exchange&event=unmute&version=3.0]]></Tracking>
+              <Tracking event="pause"><![CDATA[https://httpbin.org/status/200?layer=exchange&event=pause&version=3.0]]></Tracking>
+              <Tracking event="resume"><![CDATA[https://httpbin.org/status/200?layer=exchange&event=resume&version=3.0]]></Tracking>
+              <Tracking event="fullscreen"><![CDATA[https://httpbin.org/status/200?layer=exchange&event=fullscreen&version=3.0]]></Tracking>
+              <Tracking event="creativeView"><![CDATA[https://httpbin.org/status/200?layer=exchange&event=creativeview&auction=abc123&version=3.0]]></Tracking>
+              <Tracking event="acceptInvitation"><![CDATA[https://httpbin.org/status/200?layer=exchange&event=accept&version=3.0]]></Tracking>
+              <Tracking event="close"><![CDATA[https://httpbin.org/status/200?layer=exchange&event=close&version=3.0]]></Tracking>
+              <Tracking event="rewind"><![CDATA[https://httpbin.org/status/200?layer=exchange&event=rewind&version=3.0]]></Tracking>
+            </TrackingEvents>
+
+            <VideoClicks>
+              <ClickThrough><![CDATA[https://www.example.com/fallback-exchange-v3]]></ClickThrough>
+              <ClickTracking><![CDATA[https://httpbin.org/status/200?layer=exchange&event=click&auction=abc123&version=3.0]]></ClickTracking>
+            </VideoClicks>
+          </Linear>
+        </Creative>
+      </Creatives>
+
+      <!-- Exchange Extensions -->
+      <Extensions>
+        <Extension type="exchange_data_v3">
+          <AuctionID>abc123</AuctionID>
+          <WinnerDSP>dsp456</WinnerDSP>
+          <WinPrice currency="USD">15.50</WinPrice>
+          <BidFloor currency="USD">10.00</BidFloor>
+          <ExchangeFee currency="USD">0.75</ExchangeFee>
+          <PaymentModel>CPM</PaymentModel>
+          <VASTVersion>3.0</VASTVersion>
+        </Extension>
+        <Extension type="fraud_detection_v3">
+          <Vendor name="WhiteOps">
+            <Parameter name="siteID">exchange_site_001</Parameter>
+            <Parameter name="partnerID">exchange_partner_123</Parameter>
+          </Vendor>
+        </Extension>
+      </Extensions>
+    </Wrapper>
+  </Ad>
+</VAST>
