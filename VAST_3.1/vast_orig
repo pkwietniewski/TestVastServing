@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VAST version="4.2">
+  <!-- FINAL CREATIVE: InLine Video Advertisement -->
+  <Ad id="nike_final_creative" sequence="1" conditionalAd="false">
+    <InLine>
+      <AdSystem version="4.2"><![CDATA[Nike Creative Management Platform]]></AdSystem>
+      <AdTitle><![CDATA[Nike Summer Collection 2024 - Just Do It]]></AdTitle>
+      <Description><![CDATA[Nike's latest summer collection featuring breakthrough athletic performance wear and innovative footwear technology]]></Description>
+      <Advertiser><![CDATA[Nike, Inc.]]></Advertiser>
+      <Survey><![CDATA[https://httpbin.org/status/200?survey=nike_final&creative=summer2024_30s&source=video]]></Survey>
+
+      <!-- Final Creative Impressions -->
+      <Impression id="nike_impression_1"><![CDATA[https://httpbin.org/status/200?impression=nike&creative=summer2024_30s&campaign=just_do_it]]></Impression>
+      <Impression id="nike_impression_2"><![CDATA[https://httpbin.org/status/200?impression=nike&billing=final&creative=summer2024_30s]]></Impression>
+      <Impression id="third_party_imp_1"><![CDATA[https://httpbin.org/status/200?impression=3p&nike_summer=true&creative=30s_video]]></Impression>
+
+      <!-- Pricing Information -->
+      <Pricing model="CPM" currency="USD">15.50</Pricing>
+
+      <Creatives>
+        <!-- Primary Video Creative -->
+        <Creative id="nike_main_video" sequence="1" adId="nike_summer_2024_30s">
+          <Linear skipoffset="00:00:05">
+            <Duration>00:00:30</Duration>
+
+            <!-- Complete Video Event Tracking -->
+            <TrackingEvents>
+              <Tracking event="start"><![CDATA[https://httpbin.org/status/200?event=start&creative=summer2024_30s&final=true]]></Tracking>
+              <Tracking event="firstQuartile"><![CDATA[https://httpbin.org/status/200?event=q1&creative=summer2024_30s&final=true]]></Tracking>
+              <Tracking event="midpoint"><![CDATA[https://httpbin.org/status/200?event=midpoint&creative=summer2024_30s&final=true]]></Tracking>
+              <Tracking event="thirdQuartile"><![CDATA[https://httpbin.org/status/200?event=q3&creative=summer2024_30s&final=true]]></Tracking>
+              <Tracking event="complete"><![CDATA[https://httpbin.org/status/200?event=complete&creative=summer2024_30s&final=true]]></Tracking>
+              <Tracking event="mute"><![CDATA[https://httpbin.org/status/200?event=mute&creative=summer2024_30s]]></Tracking>
+              <Tracking event="unmute"><![CDATA[https://httpbin.org/status/200?event=unmute&creative=summer2024_30s]]></Tracking>
+              <Tracking event="pause"><![CDATA[https://httpbin.org/status/200?event=pause&creative=summer2024_30s]]></Tracking>
+              <Tracking event="resume"><![CDATA[https://httpbin.org/status/200?event=resume&creative=summer2024_30s]]></Tracking>
+              <Tracking event="rewind"><![CDATA[https://httpbin.org/status/200?event=rewind&creative=summer2024_30s]]></Tracking>
+              <Tracking event="skip"><![CDATA[https://httpbin.org/status/200?event=skip&creative=summer2024_30s]]></Tracking>
+              <Tracking event="playerExpand"><![CDATA[https://httpbin.org/status/200?event=expand&creative=summer2024_30s]]></Tracking>
+              <Tracking event="playerCollapse"><![CDATA[https://httpbin.org/status/200?event=collapse&creative=summer2024_30s]]></Tracking>
+              <Tracking event="fullscreen"><![CDATA[https://httpbin.org/status/200?event=fullscreen&creative=summer2024_30s]]></Tracking>
+              <Tracking event="exitFullscreen"><![CDATA[https://httpbin.org/status/200?event=exitfullscreen&creative=summer2024_30s]]></Tracking>
+              <Tracking event="acceptInvitation"><![CDATA[https://httpbin.org/status/200?event=accept&creative=summer2024_30s]]></Tracking>
+              <Tracking event="closeLinear"><![CDATA[https://httpbin.org/status/200?event=close&creative=summer2024_30s]]></Tracking>
+              <Tracking event="minimize"><![CDATA[https://httpbin.org/status/200?event=minimize&creative=summer2024_30s]]></Tracking>
+              <Tracking event="overlayViewDuration" offset="00:00:10"><![CDATA[https://httpbin.org/status/200?event=overlay10&creative=summer2024_30s]]></Tracking>
+              <Tracking event="overlayViewDuration" offset="00:00:20"><![CDATA[https://httpbin.org/status/200?event=overlay20&creative=summer2024_30s]]></Tracking>
+              <Tracking event="progress" offset="00:00:05"><![CDATA[https://httpbin.org/status/200?event=progress5&creative=summer2024_30s]]></Tracking>
+              <Tracking event="progress" offset="00:00:10"><![CDATA[https://httpbin.org/status/200?event=progress10&creative=summer2024_30s]]></Tracking>
+              <Tracking event="progress" offset="00:00:15"><![CDATA[https://httpbin.org/status/200?event=progress15&creative=summer2024_30s]]></Tracking>
+              <Tracking event="progress" offset="00:00:25"><![CDATA[https://httpbin.org/status/200?event=progress25&creative=summer2024_30s]]></Tracking>
+            </TrackingEvents>
+
+            <!-- Media Files - Multiple Formats and Bitrates -->
+            <MediaFiles>
+              <MediaFile id="nike_4k_video" delivery="progressive" type="video/mp4" width="3840" height="2160" codec="H.265" bitrate="8000" scalable="true" maintainAspectRatio="true" apiFramework="VAST">
+                <![CDATA[https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4]]>
+              </MediaFile>
+              <MediaFile id="nike_1080p_video" delivery="progressive" type="video/mp4" width="1920" height="1080" codec="H.264" bitrate="3000" scalable="true" maintainAspectRatio="true" apiFramework="VAST">
+                <![CDATA[https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4]]>
+              </MediaFile>
+              <MediaFile id="nike_720p_video" delivery="progressive" type="video/mp4" width="1280" height="720" codec="H.264" bitrate="1500" scalable="true" maintainAspectRatio="true" apiFramework="VAST">
+                <![CDATA[https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4]]>
+              </MediaFile>
+              <MediaFile id="nike_480p_video" delivery="progressive" type="video/mp4" width="854" height="480" codec="H.264" bitrate="800" scalable="true" maintainAspectRatio="true" apiFramework="VAST">
+                <![CDATA[https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4]]>
+              </MediaFile>
+              <MediaFile id="nike_360p_mobile" delivery="progressive" type="video/mp4" width="640" height="360" codec="H.264" bitrate="400" scalable="true" maintainAspectRatio="true" apiFramework="VAST">
+                <![CDATA[https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4]]>
+              </MediaFile>
+            </MediaFiles>
+
+            <!-- Interactive Elements -->
+            <VideoClicks>
+              <ClickThrough id="nike_main_cta"><![CDATA[https://www.nike.com/summer-collection?utm_source=video_ad&utm_medium=display&utm_campaign=summer2024&utm_content=30s_video]]></ClickThrough>
+              <ClickTracking id="nike_click_1"><![CDATA[https://httpbin.org/status/200?event=click&creative=summer2024_30s&position=cta&final=true]]></ClickTracking>
+              <ClickTracking id="nike_click_2"><![CDATA[https://httpbin.org/status/200?event=click&advertiser=nike&creative=summer30s]]></ClickTracking>
+              <CustomClick id="nike_custom_1"><![CDATA[https://httpbin.org/status/200?event=custom_click&type=logo&creative=summer2024_30s]]></CustomClick>
+              <CustomClick id="nike_custom_2"><![CDATA[https://httpbin.org/status/200?event=custom_click&type=product&creative=summer2024_30s]]></CustomClick>
+            </VideoClicks>
+
+            <!-- Interactive Overlay Icons -->
+            <Icons>
+              <Icon program="AdChoices" width="20" height="20" xPosition="top" yPosition="right" offset="00:00:00" duration="00:00:30">
+                <StaticResource creativeType="image/png">
+                  <![CDATA[https://via.placeholder.com/20x20/808080/FFFFFF?text=i]]>
+                </StaticResource>
+                <IconClicks>
+                  <IconClickThrough><![CDATA[https://youradchoices.com/]]></IconClickThrough>
+                  <IconClickTracking><![CDATA[https://httpbin.org/status/200?event=icon_click&type=adchoices]]></IconClickTracking>
+                </IconClicks>
+                <IconViewTracking><![CDATA[https://httpbin.org/status/200?event=icon_view&type=adchoices]]></IconViewTracking>
+              </Icon>
+              <Icon program="Nike" width="50" height="20" xPosition="bottom" yPosition="left" offset="00:00:05" duration="00:00:20">
+                <StaticResource creativeType="image/png">
+                  <![CDATA[https://via.placeholder.com/50x20/FF6900/FFFFFF?text=Nike]]>
+                </StaticResource>
+                <IconClicks>
+                  <IconClickThrough><![CDATA[https://www.nike.com?utm_source=logo_icon]]></IconClickThrough>
+                  <IconClickTracking><![CDATA[https://httpbin.org/status/200?event=icon_click&type=logo]]></IconClickTracking>
+                </IconClicks>
+                <IconViewTracking><![CDATA[https://httpbin.org/status/200?event=icon_view&type=logo]]></IconViewTracking>
+              </Icon>
+            </Icons>
+
+            <!-- Ad Parameters -->
+            <AdParameters xmlEncoded="false"><![CDATA[{
+              "skipOffset": 5,
+              "autoplay": true,
+              "clickToPlay": false,
+              "volume": 0.8,
+              "brandName": "Nike",
+              "campaignName": "Summer 2024",
+              "productCategory": "Athletic Footwear",
+              "targetingAge": "18-34",
+              "language": "en-US",
+              "playerSize": "responsive"
+            }]]></AdParameters>
+          </Linear>
+        </Creative>
+
+        <!-- Companion Banner Creative -->
+        <Creative id="nike_companion_banner" sequence="2" adId="nike_banner_300x250">
+          <CompanionAds required="any">
+            <Companion id="nike_banner_300x250" width="300" height="250" assetWidth="300" assetHeight="250">
+              <StaticResource creativeType="image/jpeg">
+                <![CDATA[https://via.placeholder.com/300x250/FF6900/FFFFFF?text=Nike+Summer+2024]]>
+              </StaticResource>
+              <TrackingEvents>
+                <Tracking event="creativeView"><![CDATA[https://httpbin.org/status/200?event=companion_view&size=300x250]]></Tracking>
+              </TrackingEvents>
+              <CompanionClickThrough>
+                <![CDATA[https://www.nike.com/summer-collection?utm_source=companion_banner&utm_medium=display&utm_campaign=summer2024]]>
+              </CompanionClickThrough>
+              <CompanionClickTracking>
+                <![CDATA[https://httpbin.org/status/200?event=companion_click&size=300x250&creative=summer2024]]>
+              </CompanionClickTracking>
+              <AltText><![CDATA[Nike Summer Collection 2024 - Shop Now]]></AltText>
+            </Companion>
+          </CompanionAds>
+        </Creative>
+
+        <!-- Non-Linear Overlay Creative -->
+        <Creative id="nike_overlay" sequence="3" adId="nike_overlay_cta">
+          <NonLinearAds>
+            <NonLinear id="nike_cta_overlay" width="300" height="50" expandedWidth="400" expandedHeight="100" scalable="true" maintainAspectRatio="false" minSuggestedDuration="00:00:05" apiFramework="VAST">
+              <StaticResource creativeType="image/png">
+                <![CDATA[https://via.placeholder.com/300x50/FF6900/FFFFFF?text=Shop+Now]]>
+              </StaticResource>
+              <NonLinearClickThrough>
+                <![CDATA[https://www.nike.com/summer-collection?utm_source=overlay&utm_medium=display&utm_campaign=summer2024]]>
+              </NonLinearClickThrough>
+              <NonLinearClickTracking>
+                <![CDATA[https://httpbin.org/status/200?event=overlay_click&creative=summer2024&type=cta]]>
+              </NonLinearClickTracking>
+            </NonLinear>
+          </NonLinearAds>
+        </Creative>
+      </Creatives>
+
+      <!-- Final Creative Error Tracking -->
+      <Error><![CDATA[https://httpbin.org/status/200?event=error&creative=summer2024_30s&code=[ERRORCODE]&final=true]]></Error>
+
+      <!-- Extensions for Final Creative -->
+      <Extensions>
+        <Extension type="creative_metadata">
+          <CreativeMetadata>
+            <Title>Nike Summer Collection 2024</Title>
+            <Brand>Nike</Brand>
+            <Category>Athletic Footwear</Category>
+            <Language>en-US</Language>
+            <ContentRating>General</ContentRating>
+            <Duration>30</Duration>
+            <CreationDate>2024-06-15</CreationDate>
+            <Version>2.1</Version>
+          </CreativeMetadata>
+        </Extension>
+        <Extension type="measurement">
+          <Verification vendor="TestVerification">
+            <JavaScriptResource apiFramework="omid" browserOptional="true">
+              <![CDATA[https://httpbin.org/status/200?verification=nike_summer]]>
+            </JavaScriptResource>
+          </Verification>
+        </Extension>
+      </Extensions>
+
+      <!-- Viewability Tracking for Final Creative -->
+      <ViewableImpression id="nike_final_viewable">
+        <Viewable><![CDATA[https://httpbin.org/status/200?viewable=true&creative=summer2024_30s&final=true]]></Viewable>
+        <NotViewable><![CDATA[https://httpbin.org/status/200?viewable=false&creative=summer2024_30s&final=true]]></NotViewable>
+        <ViewUndetermined><![CDATA[https://httpbin.org/status/200?viewable=unknown&creative=summer2024_30s&final=true]]></ViewUndetermined>
+      </ViewableImpression>
+    </InLine>
+  </Ad>
+</VAST>
