@@ -53,20 +53,8 @@
 
             <!-- Media Files - Multiple Formats and Bitrates -->
             <MediaFiles>
-              <MediaFile id="nike_4k_video" delivery="progressive" type="video/mp4" width="3840" height="2160" codec="H.265" bitrate="8000" scalable="true" maintainAspectRatio="true" apiFramework="VAST">
-                <![CDATA[https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4]]>
-              </MediaFile>
               <MediaFile id="nike_1080p_video" delivery="progressive" type="video/mp4" width="1920" height="1080" codec="H.264" bitrate="3000" scalable="true" maintainAspectRatio="true" apiFramework="VAST">
-                <![CDATA[https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4]]>
-              </MediaFile>
-              <MediaFile id="nike_720p_video" delivery="progressive" type="video/mp4" width="1280" height="720" codec="H.264" bitrate="1500" scalable="true" maintainAspectRatio="true" apiFramework="VAST">
-                <![CDATA[https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4]]>
-              </MediaFile>
-              <MediaFile id="nike_480p_video" delivery="progressive" type="video/mp4" width="854" height="480" codec="H.264" bitrate="800" scalable="true" maintainAspectRatio="true" apiFramework="VAST">
-                <![CDATA[https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4]]>
-              </MediaFile>
-              <MediaFile id="nike_360p_mobile" delivery="progressive" type="video/mp4" width="640" height="360" codec="H.264" bitrate="400" scalable="true" maintainAspectRatio="true" apiFramework="VAST">
-                <![CDATA[https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4]]>
+                <![CDATA[https://cdn.adgrx.com/files/Yd/sRFycdLPu1dhZDYvGuUA/file.mp4]]>
               </MediaFile>
             </MediaFiles>
 
