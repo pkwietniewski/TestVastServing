@@ -1,0 +1,97 @@
+<VAST xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vast.xsd" version="2.0">
+  <Ad id="628931523">
+    <InLine>
+      <AdSystem>DCM</AdSystem>
+      <AdTitle>In-Stream Video</AdTitle>
+      <Error>
+        <![CDATA[https://httpbin.org/status/200?event=error&creative=summer2024_30s&code=[ERRORCODE]&final=true&version=3.0]]>
+      </Error>
+      <!--  Final Creative Impressions  -->
+      <Impression>
+        <![CDATA[https://httpbin.org/status/200?impression=nike&creative=summer2024_30s&campaign=just_do_it&version=3.0]]>
+      </Impression>
+      <Creatives>
+        <Creative id="247477054" AdID="QPRG2935000H" sequence="1">
+          <Linear>
+            <Duration>00:00:15</Duration>
+            <TrackingEvents>
+              <Tracking event="start">
+                <![CDATA[https://httpbin.org/status/200?event=start&creative=summer2024_30s&final=true&version=3.0]]>
+              </Tracking>
+              <Tracking event="firstQuartile">
+                <![CDATA[https://httpbin.org/status/200?event=q1&creative=summer2024_30s&final=true&version=3.0]]>
+              </Tracking>
+              <Tracking event="midpoint">
+                <![CDATA[https://httpbin.org/status/200?event=midpoint&creative=summer2024_30s&final=true&version=3.0]]>
+              </Tracking>
+              <Tracking event="thirdQuartile">
+                <![CDATA[https://httpbin.org/status/200?event=q3&creative=summer2024_30s&final=true&version=3.0]]>
+              </Tracking>
+              <Tracking event="complete">
+                <![CDATA[https://httpbin.org/status/200?event=complete&creative=summer2024_30s&final=true&version=3.0]]>
+              </Tracking>
+              <Tracking event="mute">
+                <![CDATA[https://httpbin.org/status/200?event=mute&creative=summer2024_30s&version=3.0]]>
+              </Tracking>
+              <Tracking event="unmute">
+                <![CDATA[https://httpbin.org/status/200?event=unmute&creative=summer2024_30s&version=3.0]]>
+              </Tracking>
+              <Tracking event="pause">
+                <![CDATA[https://httpbin.org/status/200?event=pause&creative=summer2024_30s&version=3.0]]>
+              </Tracking>
+              <Tracking event="resume">
+                <![CDATA[https://httpbin.org/status/200?event=resume&creative=summer2024_30s&version=3.0]]>
+              </Tracking>
+              <Tracking event="rewind">
+                <![CDATA[https://httpbin.org/status/200?event=rewind&creative=summer2024_30s&version=3.0]]>
+              </Tracking>
+              <Tracking event="fullscreen">
+                <![CDATA[https://httpbin.org/status/200?event=fullscreen&creative=summer2024_30s&version=3.0]]>
+              </Tracking>
+              <Tracking event="creativeView">
+                <![CDATA[https://httpbin.org/status/200?event=creativeview&creative=summer2024_30s&final=true&version=3.0]]>
+              </Tracking>
+              <Tracking event="acceptInvitation">
+                <![CDATA[https://httpbin.org/status/200?event=accept&creative=summer2024_30s&version=3.0]]>
+              Tracking>
+              <Tracking event="close">
+                <![CDATA[https://httpbin.org/status/200?event=close&creative=summer2024_30s&version=3.0]]>
+              </Tracking>
+            </TrackingEvents>
+            <VideoClicks>
+              <ClickThrough>
+                <![CDATA[https://pagead2.googlesyndication.com/pcs/click?xai=AKAOjsu4jGnEQtroLSH7h-S-wpg-CewY7IZLSuTeBX_RDElBnl9Hhq29JO_DLY2eIWe7fx3rmLrqrpz7sBWSal7HrwXM6x2BcE_q06eiufJx_ebHuZdl3BcX87QF2zTe1u5W2_4ObndfmVG6bFXxshX-gBTP1Xg-1v4lEyF041o6rn80wq1g32ssuMgk5BcGGvVRsKcCwnX0kZo_WY5BBTKo6Cm2HNxNcIRlGPAxb-ApyeCxBR_JXASft4A5WMJgo3XMtkRgNOZMQT687MfNEDsWjXWBBkSiqQ4ZQCaMPt7T7XOy4veFR-JamnaZVrkBBuNdGnZqdHpo8yZopMsvjVH0aG_IHe7LRWA9PQ&sig=Cg0ArKJSzJm5Op91dORREAE&cry=1&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&adurl=https://d.agkn.com/pixel/10691/%3Fche%3D3351752257%26cmid%3D34508392%26sid%3D4820925%26pid%3D435874934%26cgid%3D628931523%26cid%3D247477054%26aid%3D1384245%26gdpr%3D%24%7BGDPR%7D%26gdpr_consent%3D%24%7BGDPR_CONSENT_468%7D%26l1%3Dhttps://www.progressive.com/lp/home-bundle-auto/%3Fcode%3D9903621000%26dclid%3D3351752257-1384245-34508392-435874934-628931523-248224163%26gad_source%3D7%26gad_campaignid%3D23351475077]]>
+              </ClickThrough>
+            </VideoClicks>
+            <MediaFiles>
+              <MediaFile id="nike_1080p_video_v3" delivery="progressive" type="video/mp4" width="1920" height="1080" codec="H.264" bitrate="3000" scalable="true" maintainAspectRatio="true">
+                <![CDATA[https://cdn.adgrx.com/files/0c/vAZEZS7pHP07Nce9X_A/transcoded_1920x1080_transcoded_1920x1080_NBA25-BASE-LIVE_ACTION_LAUNCH_TRAILER_BUTTERFLIES-SAMSUNG-15-ENUS-ESRB-SONY-1920x1080-FINAL_1920x1080MP4.mp4]]>
+              </MediaFile>
+            </MediaFiles>
+          </Linear>
+        </Creative>
+      </Creatives>
+      <Extensions>
+        <Extension type="geo">
+          <Country>PL</Country>
+          <Bandwidth>0</Bandwidth>
+        </Extension>
+        <Extension type="dart">
+          <AdServingData>
+            <DeliveryData>
+              <GeoData>
+                <![CDATA[ct=PL&st=&city=10834&dma=0&zp=20-400&bw=0]]>
+              </GeoData>
+            </DeliveryData>
+          </AdServingData>
+        </Extension>
+        <Extension type="AD-ID">
+          <UniversalAdId>
+            <Id>QPRG2935000H</Id>
+            <InCreativeAdId>Yes</InCreativeAdId>
+          </UniversalAdId>
+        </Extension>
+      </Extensions>
+    </InLine>
+  </Ad>
+</VAST>
