@@ -1,10 +1,10 @@
 <VAST version="3.0">
   <!--  LAYER 3: DSP/Agency Wrapper - VAST 3.0  -->
-  <Ad id="dsp_wrapper_v3" sequence="1">
+  <Ad id="dsp_wrapper_v3">
     <Wrapper>
       <AdSystem version="3.0">DSP-AgencyTradingDesk-v3</AdSystem>
       <VASTAdTagURI>
-        <![CDATA[ https://tizen-app-store-json-staging.int.samsungads.com/test/vast_3_0_orig7.xml ]]>
+        <![CDATA[ https://raw.githubusercontent.com/pkwietniewski/TestVastServing/refs/heads/main/new_VAST_3.0/vast_3_0_orig7.xml ]]>
       </VASTAdTagURI>
       <Error>
         <![CDATA[ https://httpbin.org/status/200?layer=dsp&error=[ERRORCODE]&campaign=nike_summer&version=3.0 ]]>
@@ -13,7 +13,7 @@
         <![CDATA[ https://httpbin.org/status/200?layer=dsp&impression=true&campaign=nike_summer&line_item=li_001&version=3.0 ]]>
       </Impression>
       <Creatives>
-        <Creative id="dsp_creative_v3" sequence="1" adId="dsp_ad_v3">
+        <Creative id="dsp_creative_v31" sequence="1" adId="dsp_ad_v3">
           <Linear>
             <Duration>00:00:15</Duration>
             <TrackingEvents>
