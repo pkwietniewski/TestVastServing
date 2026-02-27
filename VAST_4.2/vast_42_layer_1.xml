@@ -1,21 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <VAST version="4.2">
-  <!-- LAYER 1: Publisher SSP Wrapper -->
   <Ad id="ssp_wrapper" sequence="1">
     <Wrapper followAdditionalWrappers="1" allowMultipleAds="0" fallbackOnNoAd="0">
       <AdSystem version="2.1">Publisher-SSP-Platform</AdSystem>
       <AdTitle><![CDATA[Layer 1 - Publisher SSP Wrapper]]></AdTitle>
       <Description><![CDATA[First wrapper layer from publisher supply-side platform]]></Description>
-
-      <!-- Publisher SSP Tracking -->
+      
       <Impression id="ssp_impression"><![CDATA[https://httpbin.org/status/200?layer=ssp&publisher=pub123&placement=video_slot]]></Impression>
 
-      <!-- Pricing from SSP perspective -->
-      <Pricing model="CPM" currency="USD">12.00</Pricing>
-
       <Creatives>
-        <Creative id="ssp_creative" sequence="1">
-          <Linear skipoffset="00:00:05">
+        <Creative id="dsp_creative" sequence="1">
+          <Linear>
             <TrackingEvents>
               <Tracking event="start"><![CDATA[https://httpbin.org/status/200?layer=ssp&event=start]]></Tracking>
               <Tracking event="firstQuartile"><![CDATA[https://httpbin.org/status/200?layer=ssp&event=q1]]></Tracking>
@@ -38,13 +32,10 @@
         </Creative>
       </Creatives>
 
-      <!-- Points to Layer 2 (Ad Exchange) -->
-      <VASTAdTagURI><![CDATA[https://raw.githubusercontent.com/pkwietniewski/TestVastServing/refs/heads/main/VAST_4.2/vast_2_wrapped_exchange.xml]]></VASTAdTagURI>
+      <VASTAdTagURI><![CDATA[https://tizen-app-store-json-staging.int.samsungads.com/test/vast_42_orig.xml]]></VASTAdTagURI>
 
-      <!-- Error Tracking -->
       <Error><![CDATA[https://httpbin.org/status/200?layer=ssp&error=[ERRORCODE]]]></Error>
 
-      <!-- SSP Extensions -->
       <Extensions>
         <Extension type="ssp_data">
           <PublisherID>pub_12345</PublisherID>
@@ -55,7 +46,6 @@
         </Extension>
       </Extensions>
 
-      <!-- Viewability Tracking -->
       <ViewableImpression id="ssp_viewable">
         <Viewable><![CDATA[https://httpbin.org/status/200?layer=ssp&viewable=true]]></Viewable>
         <NotViewable><![CDATA[https://httpbin.org/status/200?layer=ssp&viewable=false]]></NotViewable>

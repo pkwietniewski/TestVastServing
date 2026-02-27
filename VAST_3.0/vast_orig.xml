@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <VAST version="3.0">
   <!-- FINAL CREATIVE: InLine Video Advertisement - VAST 3.0 -->
-  <Ad id="nike_final_creative_v3" sequence="1">
+  <Ad id="nike_final_creative_v3">
     <InLine>
       <AdSystem version="3.0"><![CDATA[Nike Creative Management Platform v3]]></AdSystem>
       <AdTitle><![CDATA[Nike Summer Collection 2024 - Just Do It (VAST 3.0)]]></AdTitle>
@@ -15,9 +14,9 @@
 
       <Creatives>
         <!-- Primary Video Creative -->
-        <Creative id="nike_main_video_v3" sequence="1" adId="nike_summer_2024_30s_v3">
+        <Creative id="nike_main_video_v3" adId="nike_summer_2024_30s_v3">
           <Linear>
-            <Duration>00:00:30</Duration>
+            <Duration>00:00:15</Duration>
 
             <!-- Complete Video Event Tracking -->
             <TrackingEvents>
@@ -33,7 +32,6 @@
               <Tracking event="rewind"><![CDATA[https://httpbin.org/status/200?event=rewind&creative=summer2024_30s&version=3.0]]></Tracking>
               <Tracking event="fullscreen"><![CDATA[https://httpbin.org/status/200?event=fullscreen&creative=summer2024_30s&version=3.0]]></Tracking>
               <Tracking event="creativeView"><![CDATA[https://httpbin.org/status/200?event=creativeview&creative=summer2024_30s&final=true&version=3.0]]></Tracking>
-              <Tracking event="acceptInvitation"><![CDATA[https://httpbin.org/status/200?event=accept&creative=summer2024_30s&version=3.0]]></Tracking>
               <Tracking event="close"><![CDATA[https://httpbin.org/status/200?event=close&creative=summer2024_30s&version=3.0]]></Tracking>
             </TrackingEvents>
 
@@ -52,7 +50,6 @@
 
             <!-- Ad Parameters -->
             <AdParameters><![CDATA[{
-              "skipOffset": 5,
               "autoplay": true,
               "clickToPlay": false,
               "volume": 0.8,
@@ -65,52 +62,7 @@
               "vastVersion": "3.0"
             }]]></AdParameters>
           </Linear>
-        </Creative>
-
-        <!-- Companion Banner Creative -->
-        <Creative id="nike_companion_banner_v3" sequence="2" adId="nike_banner_300x250_v3">
-          <CompanionAds>
-            <Companion id="nike_banner_300x250_v3" width="300" height="250">
-              <StaticResource creativeType="image/jpeg">
-                <![CDATA[https://via.placeholder.com/300x250/FF6900/FFFFFF?text=Nike+Summer+2024+v3.0]]>
-              </StaticResource>
-              <TrackingEvents>
-                <Tracking event="creativeView"><![CDATA[https://httpbin.org/status/200?event=companion_view&size=300x250&version=3.0]]></Tracking>
-              </TrackingEvents>
-              <CompanionClickThrough>
-                <![CDATA[https://www.nike.com/summer-collection?utm_source=companion_banner&utm_medium=display&utm_campaign=summer2024&version=3.0]]>
-              </CompanionClickThrough>
-              <AltText><![CDATA[Nike Summer Collection 2024 - Shop Now (VAST 3.0)]]></AltText>
-            </Companion>
-
-            <Companion id="nike_banner_728x90_v3" width="728" height="90">
-              <StaticResource creativeType="image/jpeg">
-                <![CDATA[https://via.placeholder.com/728x90/FF6900/FFFFFF?text=Nike+Summer+Collection+v3.0]]>
-              </StaticResource>
-              <TrackingEvents>
-                <Tracking event="creativeView"><![CDATA[https://httpbin.org/status/200?event=companion_view&size=728x90&version=3.0]]></Tracking>
-              </TrackingEvents>
-              <CompanionClickThrough>
-                <![CDATA[https://www.nike.com/summer-collection?utm_source=leaderboard&utm_medium=display&utm_campaign=summer2024&version=3.0]]>
-              </CompanionClickThrough>
-              <AltText><![CDATA[Nike Summer Collection 2024 - Just Do It (VAST 3.0)]]></AltText>
-            </Companion>
-          </CompanionAds>
-        </Creative>
-
-        <!-- Non-Linear Overlay Creative (VAST 3.0 Compatible) -->
-        <Creative id="nike_overlay_v3" sequence="3" adId="nike_overlay_cta_v3">
-          <NonLinearAds>
-            <NonLinear id="nike_cta_overlay_v3" width="300" height="50" expandedWidth="400" expandedHeight="100" scalable="true" maintainAspectRatio="false" minSuggestedDuration="00:00:05">
-              <StaticResource creativeType="image/png">
-                <![CDATA[https://via.placeholder.com/300x50/FF6900/FFFFFF?text=Shop+Now+v3.0]]>
-              </StaticResource>
-              <NonLinearClickThrough>
-                <![CDATA[https://www.nike.com/summer-collection?utm_source=overlay&utm_medium=display&utm_campaign=summer2024&version=3.0]]>
-              </NonLinearClickThrough>
-            </NonLinear>
-          </NonLinearAds>
-        </Creative>
+        </Creative>  
       </Creatives>
 
       <!-- Extensions for Final Creative -->
@@ -122,7 +74,7 @@
             <Category>Athletic Footwear</Category>
             <Language>en-US</Language>
             <ContentRating>General</ContentRating>
-            <Duration>30</Duration>
+            <Duration>15</Duration>
             <CreationDate>2024-06-15</CreationDate>
             <Version>3.0</Version>
             <VASTVersion>3.0</VASTVersion>

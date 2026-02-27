@@ -53,7 +53,7 @@
               </Tracking>
               <Tracking event="acceptInvitation">
                 <![CDATA[https://httpbin.org/status/200?event=accept&creative=summer2024_30s&version=3.0]]>
-              Tracking>
+              </Tracking>
               <Tracking event="close">
                 <![CDATA[https://httpbin.org/status/200?event=close&creative=summer2024_30s&version=3.0]]>
               </Tracking>

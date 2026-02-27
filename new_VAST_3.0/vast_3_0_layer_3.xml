@@ -1,0 +1,112 @@
+<VAST version="3.0">
+  <!--  LAYER 3: DSP/Agency Wrapper - VAST 3.0  -->
+  <Ad id="dsp_wrapper_v3" sequence="1">
+    <Wrapper>
+      <AdSystem version="3.0">DSP-AgencyTradingDesk-v3</AdSystem>
+      <VASTAdTagURI>
+        <![CDATA[ https://tizen-app-store-json-staging.int.samsungads.com/test/vast_3_0_layer_2.xml ]]>
+      </VASTAdTagURI>
+      <Error>
+        <![CDATA[ https://httpbin.org/status/200?layer=dsp&error=[ERRORCODE]&campaign=nike_summer&version=3.0 ]]>
+      </Error>
+      <Impression>
+        <![CDATA[ https://httpbin.org/status/200?layer=dsp&impression=true&campaign=nike_summer&line_item=li_001&version=3.0 ]]>
+      </Impression>
+      <Creatives>
+        <Creative id="dsp_creative_v3" sequence="1" adId="dsp_ad_v3">
+          <Linear>
+            <Duration>00:00:15</Duration>
+            <TrackingEvents>
+              <Tracking event="start">
+                <![CDATA[ https://httpbin.org/status/200?layer=dsp&event=start&campaign=nike_summer&version=3.0 ]]>
+              </Tracking>
+              <Tracking event="firstQuartile">
+                <![CDATA[ https://httpbin.org/status/200?layer=dsp&event=q1&campaign=nike_summer&version=3.0 ]]>
+              </Tracking>
+              <Tracking event="midpoint">
+                <![CDATA[ https://httpbin.org/status/200?layer=dsp&event=midpoint&campaign=nike_summer&version=3.0 ]]>
+              </Tracking>
+              <Tracking event="thirdQuartile">
+                <![CDATA[ https://httpbin.org/status/200?layer=dsp&event=q3&campaign=nike_summer&version=3.0 ]]>
+              </Tracking>
+              <Tracking event="complete">
+                <![CDATA[ https://httpbin.org/status/200?layer=dsp&event=complete&campaign=nike_summer&version=3.0 ]]>
+              </Tracking>
+              <Tracking event="mute">
+                <![CDATA[ https://httpbin.org/status/200?layer=dsp&event=mute&version=3.0 ]]>
+              </Tracking>
+              <Tracking event="unmute">
+                <![CDATA[ https://httpbin.org/status/200?layer=dsp&event=unmute&version=3.0 ]]>
+              </Tracking>
+              <Tracking event="pause">
+                <![CDATA[ https://httpbin.org/status/200?layer=dsp&event=pause&version=3.0 ]]>
+              </Tracking>
+              <Tracking event="resume">
+                <![CDATA[ https://httpbin.org/status/200?layer=dsp&event=resume&version=3.0 ]]>
+              </Tracking>
+              <Tracking event="fullscreen">
+                <![CDATA[ https://httpbin.org/status/200?layer=dsp&event=fullscreen&version=3.0 ]]>
+              </Tracking>
+              <Tracking event="creativeView">
+                <![CDATA[ https://httpbin.org/status/200?layer=dsp&event=creativeview&campaign=nike_summer&version=3.0 ]]>
+              </Tracking>
+              <Tracking event="acceptInvitation">
+                <![CDATA[ https://httpbin.org/status/200?layer=dsp&event=accept&version=3.0 ]]>
+              </Tracking>
+              <Tracking event="close">
+                <![CDATA[ https://httpbin.org/status/200?layer=dsp&event=close&version=3.0 ]]>
+              </Tracking>
+              <Tracking event="rewind">
+                <![CDATA[ https://httpbin.org/status/200?layer=dsp&event=rewind&version=3.0 ]]>
+              </Tracking>
+            </TrackingEvents>
+            <VideoClicks>
+              <ClickThrough>
+                <![CDATA[ https://www.example.com/fallback-dsp-v3 ]]>
+              </ClickThrough>
+              <ClickTracking>
+                <![CDATA[ https://httpbin.org/status/200?layer=dsp&event=click&campaign=nike_summer&version=3.0 ]]>
+              </ClickTracking>
+            </VideoClicks>
+          </Linear>
+        </Creative>
+      </Creatives>
+      <!--  DSP Extensions  -->
+      <Extensions>
+        <Extension type="dsp_campaign_data_v3">
+          <CampaignID>nike_summer_2024</CampaignID>
+          <LineItemID>li_001</LineItemID>
+          <CreativeID>nike_video_30s_v3</CreativeID>
+          <AdvertiserID>nike_inc</AdvertiserID>
+          <AgencyID>global_media_agency</AgencyID>
+          <BrandID>nike</BrandID>
+          <ProductCategory>Athletic_Footwear</ProductCategory>
+          <TargetingData>
+            <Demographics>18-34</Demographics>
+            <Interests>Sports,Fitness,Running</Interests>
+            <Geography>US,CA,UK</Geography>
+          </TargetingData>
+          <FrequencyCap>3</FrequencyCap>
+          <DayPartTargeting>6-23</DayPartTargeting>
+          <VASTVersion>3.0</VASTVersion>
+        </Extension>
+        <Extension type="measurement_vendors_v3">
+          <Vendor name="Nielsen">
+            <Parameter name="clientID">nike_nielsen_123</Parameter>
+            <Parameter name="campaignID">nike_summer_dcr</Parameter>
+          </Vendor>
+          <Vendor name="ComScore">
+            <Parameter name="c2">nike_comscore_id</Parameter>
+            <Parameter name="campaignID">nike_summer_cs</Parameter>
+          </Vendor>
+        </Extension>
+        <Extension type="brand_safety_v3">
+          <Vendor name="DoubleVerify">
+            <Parameter name="ctx">nike_brand_safety</Parameter>
+            <Parameter name="cmp">nike_summer</Parameter>
+          </Vendor>
+        </Extension>
+      </Extensions>
+    </Wrapper>
+  </Ad>
+</VAST>

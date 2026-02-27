@@ -1,0 +1,47 @@
+<VAST version="3.0"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <Ad id="nike_final_creative_v3" sequence="1">
+    <InLine>
+      <AdSystem version="3.0">Nike Creative Management Platform v3</AdSystem>
+      <AdTitle><![CDATA[Nike Summer Collection 2024 - Just Do It (VAST 3.0)]]></AdTitle>
+      <Description><![CDATA[Nike's latest summer collection featuring breakthrough athletic performance wear and innovative footwear technology - VAST 3.0 compatible]]></Description>
+      <Advertiser><![CDATA[Nike, Inc.]]></Advertiser>      
+      <Survey><![CDATA[https://httpbin.org/status/200?survey=nike_final&creative=summer2024_30s&source=video&version=3.0]]></Survey>
+      <Error><![CDATA[https://httpbin.org/status/200?event=error&creative=summer2024_30s&code=[ERRORCODE]&final=true&version=3.0]]></Error>
+      <Impression id="Impression-ID">http://example.com/track/impression</Impression>
+      <Creatives>
+        <Creative id="nike_main_video_v3" sequence="1" adId="nike_summer_2024_30s_v3">
+          <Linear>
+            <Duration>00:00:15</Duration>
+
+            <TrackingEvents>
+              <Tracking event="start"><![CDATA[https://httpbin.org/status/200?event=start&creative=summer2024_30s&final=true&version=3.0]]></Tracking>
+              <Tracking event="firstQuartile"><![CDATA[https://httpbin.org/status/200?event=q1&creative=summer2024_30s&final=true&version=3.0]]></Tracking>
+              <Tracking event="midpoint"><![CDATA[https://httpbin.org/status/200?event=midpoint&creative=summer2024_30s&final=true&version=3.0]]></Tracking>
+              <Tracking event="thirdQuartile"><![CDATA[https://httpbin.org/status/200?event=q3&creative=summer2024_30s&final=true&version=3.0]]></Tracking>
+              <Tracking event="complete"><![CDATA[https://httpbin.org/status/200?event=complete&creative=summer2024_30s&final=true&version=3.0]]></Tracking>
+            </TrackingEvents>
+
+            <VideoClicks>
+              <ClickThrough><![CDATA[https://www.nike.com/summer-collection?utm_source=video_ad&utm_medium=display&utm_campaign=summer2024&utm_content=30s_video&version=3.0]]></ClickThrough>
+              <ClickTracking><![CDATA[https://httpbin.org/status/200?event=click&creative=summer2024_30s&position=cta&final=true&version=3.0]]></ClickTracking>
+            </VideoClicks>
+
+            <MediaFiles>
+              <MediaFile id="nike_1080p_video_v3" delivery="progressive" type="video/mp4" bitrate="3000" width="1920" height="1080" scalable="true" maintainAspectRatio="true" codec="H.264">
+                <![CDATA[https://cdn.adgrx.com/files/qI/RUvwOga07dt23Pu5zg/transcoded_1920x1080_transcoded_1920x1080_NBA25-BASE-LIVE_ACTION_LAUNCH_TRAILER_BUTTERFLIES-SAMSUNG-15-ENUS-ESRB-SONY-1920x1080-FINAL_1920x1080MP4.mp4]]>
+              </MediaFile>
+            </MediaFiles>
+
+          </Linear>
+        </Creative>
+      </Creatives>
+      <Extensions>
+        <Extension type="iab-creative_metadata_v3">
+          <Country>PL</Country>
+          <Bandwidth>0</Bandwidth>
+        </Extension>
+      </Extensions>
+    </InLine>
+  </Ad>
+</VAST>
