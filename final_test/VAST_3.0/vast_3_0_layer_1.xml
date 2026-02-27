@@ -4,7 +4,7 @@ VAST version="3.0">
   <Wrapper>
     <AdSystem version="3.0">DSP-AgencyTradingDesk-v3</AdSystem>
     <VASTAdTagURI>
-      <![CDATA[ https://raw.githubusercontent.com/pkwietniewski/TestVastServing/refs/heads/main/final_test/VAST_3.0/vast_3_0_orig.xml ]]>
+      <![CDATA[https://raw.githubusercontent.com/pkwietniewski/TestVastServing/refs/heads/main/final_test/VAST_3.0/vast_3_0_orig.xml]]>
     </VASTAdTagURI>
     <Error>
       <![CDATA[ https://httpbin.org/status/200?layer=dsp&error=[ERRORCODE]&campaign=nike_summer&version=3.0 ]]>
