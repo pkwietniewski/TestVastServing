@@ -71,42 +71,6 @@
           </Linear>
         </Creative>
       </Creatives>
-      <!--  DSP Extensions  -->
-      <Extensions>
-        <Extension type="dsp_campaign_data_v3">
-          <CampaignID>nike_summer_2024</CampaignID>
-          <LineItemID>li_001</LineItemID>
-          <CreativeID>nike_video_30s_v3</CreativeID>
-          <AdvertiserID>nike_inc</AdvertiserID>
-          <AgencyID>global_media_agency</AgencyID>
-          <BrandID>nike</BrandID>
-          <ProductCategory>Athletic_Footwear</ProductCategory>
-          <TargetingData>
-            <Demographics>18-34</Demographics>
-            <Interests>Sports,Fitness,Running</Interests>
-            <Geography>US,CA,UK</Geography>
-          </TargetingData>
-          <FrequencyCap>3</FrequencyCap>
-          <DayPartTargeting>6-23</DayPartTargeting>
-          <VASTVersion>3.0</VASTVersion>
-        </Extension>
-        <Extension type="measurement_vendors_v3">
-          <Vendor name="Nielsen">
-            <Parameter name="clientID">nike_nielsen_123</Parameter>
-            <Parameter name="campaignID">nike_summer_dcr</Parameter>
-          </Vendor>
-          <Vendor name="ComScore">
-            <Parameter name="c2">nike_comscore_id</Parameter>
-            <Parameter name="campaignID">nike_summer_cs</Parameter>
-          </Vendor>
-        </Extension>
-        <Extension type="brand_safety_v3">
-          <Vendor name="DoubleVerify">
-            <Parameter name="ctx">nike_brand_safety</Parameter>
-            <Parameter name="cmp">nike_summer</Parameter>
-          </Vendor>
-        </Extension>
-      </Extensions>
     </Wrapper>
   </Ad>
 </VAST>
