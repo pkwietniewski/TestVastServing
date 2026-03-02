@@ -50,46 +50,7 @@
             </VideoClicks>
             <MediaFiles>
               <MediaFile id="1004933473-15" delivery="progressive" width="1920" height="1080" type="video/mp4" bitrate="24996" scalable="true" maintainAspectRatio="true">
-                <![CDATA[https://cdn.adgrx.com/files/Oo/yREwRw44fu8v_tKIkw/transcoded_1920x1080_transcoded_1920x1080_NBA25-BASE-LIVE_ACTION_LAUNCH_TRAILER_BUTTERFLIES-SAMSUNG-15-ENUS-ESRB-SONY-1920x1080-FINAL_1920x1080MP4.mp4]]>
-              </MediaFile>
-              <MediaFile id="1004933473-160" delivery="progressive" width="256" height="144" type="application/x-mpegURL" bitrate="107" scalable="true" maintainAspectRatio="true">
-                <![CDATA[https://gcdn.2mdn.net/api/manifest/hls_variant/source/web_video_ads/id/89a5c65d281c64a1/itag/0/playlist_type/LIVE/xpc/Eghovf3BOnoBAQ%3D%3D/ei/YV7taLnCO6zdkPMPitrRyAU/susc/vsau/acao/yes/ctier/L/vprv/1/rqh/5/pacing/0/ip/0.0.0.0/ipbits/0/expire/3904834657/sparams/ip,ipbits,expire,source,id,itag,playlist_type,xpc,ei,susc,acao,ctier,vprv,rqh/signature/D316C5537153FFA943D4A30CE285ED6C8231BE662473D82DBFAE4127A9EBC2D0.58CE3E89E4D4B0001C10092CB63A3E880C5352CDBC91C6DAAACF88BC8DCB128B/key/us0/file/index.m3u8]]>
-              </MediaFile>
-              <MediaFile id="1004933473-18" delivery="progressive" width="640" height="360" type="video/mp4" bitrate="399" scalable="true" maintainAspectRatio="true">
-                <![CDATA[https://gcdn.2mdn.net/videoplayback/id/89a5c65d281c64a1/itag/18/source/web_video_ads/xpc/EgVovf3BOg%3D%3D/ctier/L/acao/yes/ip/0.0.0.0/ipbits/0/expire/3904834657/sparams/id,itag,source,xpc,ctier,acao,ip,ipbits,expire/signature/B6AC73C6ACB5B932F3CA115724999EB641F63CB9.10396F8C5B72FAC651750763808B312A1A5C5067/key/ck2/file/file.mp4]]>
-              </MediaFile>
-              <MediaFile id="1004933473-22" delivery="progressive" width="1280" height="720" type="video/mp4" bitrate="2005" scalable="true" maintainAspectRatio="true">
-                <![CDATA[https://gcdn.2mdn.net/videoplayback/id/89a5c65d281c64a1/itag/22/source/web_video_ads/xpc/EgVovf3BOg%3D%3D/ctier/L/acao/yes/ip/0.0.0.0/ipbits/0/expire/3904834657/sparams/id,itag,source,xpc,ctier,acao,ip,ipbits,expire/signature/27E00EB3CB7A3E1EF4670E1B497D4B17A16873C8.D5B90FE29EE81756D1288B8CAD86066231AFEC8/key/ck2/file/file.mp4]]>
-              </MediaFile>
-              <MediaFile id="1004933473-37" delivery="progressive" width="1920" height="1080" type="video/mp4" bitrate="4033" scalable="true" maintainAspectRatio="true">
-                <![CDATA[https://cdn.adgrx.com/files/Oo/yREwRw44fu8v_tKIkw/transcoded_1920x1080_transcoded_1920x1080_NBA25-BASE-LIVE_ACTION_LAUNCH_TRAILER_BUTTERFLIES-SAMSUNG-15-ENUS-ESRB-SONY-1920x1080-FINAL_1920x1080MP4.mp4]]>
-              </MediaFile>
-              <MediaFile id="1004933473-692" delivery="progressive" width="960" height="540" type="video/mp4" bitrate="1244" scalable="true" maintainAspectRatio="true">
-                <![CDATA[https://gcdn.2mdn.net/videoplayback/id/89a5c65d281c64a1/itag/692/source/web_video_ads/xpc/EgVovf3BOg%3D%3D/ctier/L/acao/yes/ip/0.0.0.0/ipbits/0/expire/3904834658/sparams/id,itag,source,xpc,ctier,acao,ip,ipbits,expire/signature/5FAFA1527D7A65BB74F5E50900B6FDAF5094AABB.5C99D1E5DA23FAF2640C8A187ED116C0A2F6559A/key/ck2/file/file.mp4]]>
-              </MediaFile>
-              <MediaFile id="1004933473-59" delivery="progressive" width="854" height="480" type="video/mp4" bitrate="719" scalable="true" maintainAspectRatio="true">
-                <![CDATA[https://gcdn.2mdn.net/videoplayback/id/89a5c65d281c64a1/itag/59/source/web_video_ads/xpc/EgVovf3BOg%3D%3D/ctier/L/acao/yes/ip/0.0.0.0/ipbits/0/expire/3904834658/sparams/id,itag,source,xpc,ctier,acao,ip,ipbits,expire/signature/B3237F81E7F29FD7CC4B4F7BC81A794511CF7262.9A4BFF0C835383170C461D813BE0EB85300CB5B1/key/ck2/file/file.mp4]]>
-              </MediaFile>
-              <MediaFile id="1004933473-309" delivery="progressive" width="1920" height="1080" type="video/mp4" bitrate="19947" scalable="true" maintainAspectRatio="true">
-                <![CDATA[https://cdn.adgrx.com/files/Oo/yREwRw44fu8v_tKIkw/transcoded_1920x1080_transcoded_1920x1080_NBA25-BASE-LIVE_ACTION_LAUNCH_TRAILER_BUTTERFLIES-SAMSUNG-15-ENUS-ESRB-SONY-1920x1080-FINAL_1920x1080MP4.mp4]]>
-              </MediaFile>
-              <MediaFile id="1004933473-342" delivery="progressive" width="480" height="270" type="video/mp4" bitrate="396" scalable="true" maintainAspectRatio="true">
-                <![CDATA[https://gcdn.2mdn.net/videoplayback/id/89a5c65d281c64a1/itag/342/source/web_video_ads/xpc/EgVovf3BOg%3D%3D/ctier/L/acao/yes/ip/0.0.0.0/ipbits/0/expire/3904834658/sparams/id,itag,source,xpc,ctier,acao,ip,ipbits,expire/signature/4D4410C73B0E413516BBD1CFB2041D2E1DB29CC5.79819668856E3974C9782945C1153C2B49E37220/key/ck2/file/file.mp4]]>
-              </MediaFile>
-              <MediaFile id="1004933473-343" delivery="progressive" width="640" height="360" type="video/mp4" bitrate="988" scalable="true" maintainAspectRatio="true">
-                <![CDATA[https://gcdn.2mdn.net/videoplayback/id/89a5c65d281c64a1/itag/343/source/web_video_ads/xpc/EgVovf3BOg%3D%3D/ctier/L/acao/yes/ip/0.0.0.0/ipbits/0/expire/3904834658/sparams/id,itag,source,xpc,ctier,acao,ip,ipbits,expire/signature/298ADF053939640A3264F25FEAA61D8F50C571BE.A3D38AF3B1ADD329EDD2632444BACD82468986CF/key/ck2/file/file.mp4]]>
-              </MediaFile>
-              <MediaFile id="1004933473-344" delivery="progressive" width="640" height="360" type="video/mp4" bitrate="1492" scalable="true" maintainAspectRatio="true">
-                <![CDATA[https://gcdn.2mdn.net/videoplayback/id/89a5c65d281c64a1/itag/344/source/web_video_ads/xpc/EgVovf3BOg%3D%3D/ctier/L/acao/yes/ip/0.0.0.0/ipbits/0/expire/3904834658/sparams/id,itag,source,xpc,ctier,acao,ip,ipbits,expire/signature/66C3F73ABADD8873DC4A29C40D2E06A19200522.A7D9CDAA2385A72482A56B84F3D508A59D402A23/key/ck2/file/file.mp4]]>
-              </MediaFile>
-              <MediaFile id="1004933473-345" delivery="progressive" width="640" height="360" type="video/mp4" bitrate="299" scalable="true" maintainAspectRatio="true">
-                <![CDATA[https://gcdn.2mdn.net/videoplayback/id/89a5c65d281c64a1/itag/345/source/web_video_ads/xpc/EgVovf3BOg%3D%3D/ctier/L/acao/yes/ip/0.0.0.0/ipbits/0/expire/3904834658/sparams/id,itag,source,xpc,ctier,acao,ip,ipbits,expire/signature/AC8028A12C0C85CDAAD5F9B17E30EC274FE4197C.3FBAFE2AB4FC79284E1F14CFF7DFA69E8A6A73CF/key/ck2/file/file.mp4]]>
-              </MediaFile>
-              <MediaFile id="1004933473-346" delivery="progressive" width="720" height="406" type="video/mp4" bitrate="486" scalable="true" maintainAspectRatio="true">
-                <![CDATA[https://gcdn.2mdn.net/videoplayback/id/89a5c65d281c64a1/itag/346/source/web_video_ads/xpc/EgVovf3BOg%3D%3D/ctier/L/acao/yes/ip/0.0.0.0/ipbits/0/expire/3904834658/sparams/id,itag,source,xpc,ctier,acao,ip,ipbits,expire/signature/A9C9C3D7F5B490A4AF106653439AEFDD704D6B51.1C326CD49DF1C5782D0607340E175DE4055B07F8/key/ck2/file/file.mp4]]>
-              </MediaFile>
-              <MediaFile id="1004933473-347" delivery="progressive" width="1024" height="576" type="video/mp4" bitrate="2094" scalable="true" maintainAspectRatio="true">
-                <![CDATA[https://gcdn.2mdn.net/videoplayback/id/89a5c65d281c64a1/itag/347/source/web_video_ads/xpc/EgVovf3BOg%3D%3D/ctier/L/acao/yes/ip/0.0.0.0/ipbits/0/expire/3904834658/sparams/id,itag,source,xpc,ctier,acao,ip,ipbits,expire/signature/7526D5C1FADF7DF1F9327FE014C2723B983F39FB.A4BA85065D99670CC860FE550EF05164BF67EED8/key/ck2/file/file.mp4]]>
+                <![CDATA[https://cdn.adgrx.com/files/c1/rf6gqEDLRtTEzDgkwJCw/transcoded_1920x1080_transcoded_1920x1080_NBA25-BASE-LIVE_ACTION_LAUNCH_TRAILER_BUTTERFLIES-SAMSUNG-15-ENUS-ESRB-SONY-1920x1080-FINAL_1920x1080MP4.mp4]]>
               </MediaFile>
             </MediaFiles>
           </Linear>
