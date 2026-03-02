@@ -1,4 +1,4 @@
-<VideoAdServingTemplate version="1.0">
+<VAST version="1.0">
   <Ad id="624458388">
     <InLine>
       <AdSystem>DCM</AdSystem>
@@ -74,4 +74,4 @@
       </Creatives>
     </InLine>
   </Ad>
-</VideoAdServingTemplate>
+</VAST>
