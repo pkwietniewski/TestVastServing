@@ -1,23 +1,32 @@
-<VAST xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.0" xsi:noNamespaceSchemaLocation="vast.xsd">
-  <!--  FINAL CREATIVE: InLine Video Advertisement - VAST 3.0  -->
-  <Ad id="nike_final_creative_v3">
+<?xml version="1.0" encoding="UTF-8"?>
+<VAST version="3.0">
+  <Ad id="nike_test_nonlinear">
     <InLine>
-      <AdSystem version="3.0">Nike Creative Management Platform v3</AdSystem>
-      <AdTitle>Nike Summer Collection 2024 - Just Do It (VAST 3.0)</AdTitle>
-      <Description>Nike's latest summer collection featuring breakthrough athletic performance wear and innovative footwear technology - VAST 3.0 compatible</Description>
+      <AdSystem version="3.0">
+        <![CDATA[ Nike Creative Management Platform v3 - VAST 3.0 inline ]]>
+      </AdSystem>
+      <AdTitle>
+        <![CDATA[ Nike Summer Collection 2024 - Just Do It (VAST 3.0) ]]>
+      </AdTitle>
+      <Description>
+        <![CDATA[ Nike's latest summer collection featuring breakthrough athletic performance wear and innovative footwear technology - VAST 3.0 compatible ]]>
+      </Description>
+      <Advertiser>
+        <![CDATA[ Nike, Inc. ]]>
+      </Advertiser>
+      <Survey>
+        <![CDATA[ https://httpbin.org/status/200?survey=nike_final&creative=summer2024_30s&source=video&version=3.0 ]]>
+      </Survey>
       <Error>
         <![CDATA[ https://httpbin.org/status/200?event=error&creative=summer2024_30s&code=[ERRORCODE]&final=true&version=3.0 ]]>
       </Error>
-      <!--  Final Creative Impressions  -->
       <Impression>
         <![CDATA[ https://httpbin.org/status/200?impression=nike&creative=summer2024_30s&campaign=just_do_it&version=3.0 ]]>
       </Impression>
       <Creatives>
-        <!--  Primary Video Creative  -->
-        <Creative id="nike_main_video_v3" sequence="1" adID="nike_summer_2024_30s_v3">
+        <Creative id="nike_main_video_test" adId="nike_summer_2024_30s_test">
           <Linear>
-            <Duration>00:00:15</Duration>
-            <!--  Complete Video Event Tracking  -->
+            <Duration>00:00:30</Duration>
             <TrackingEvents>
               <Tracking event="start">
                 <![CDATA[ https://httpbin.org/status/200?event=start&creative=summer2024_30s&final=true&version=3.0 ]]>
@@ -62,13 +71,11 @@
                 <![CDATA[ https://httpbin.org/status/200?event=close&creative=summer2024_30s&version=3.0 ]]>
               </Tracking>
             </TrackingEvents>
-            <!--  Media Files - Multiple Formats and Bitrates  -->
             <MediaFiles>
-              <MediaFile id="nike_1080p_video_v3" delivery="progressive" type="video/mp4" width="1920" height="1080" codec="H.264" bitrate="3000" scalable="true" maintainAspectRatio="true">
-                <![CDATA[ https://cdn.adgrx.com/files/Oo/yREwRw44fu8v_tKIkw/transcoded_1920x1080_transcoded_1920x1080_NBA25-BASE-LIVE_ACTION_LAUNCH_TRAILER_BUTTERFLIES-SAMSUNG-15-ENUS-ESRB-SONY-1920x1080-FINAL_1920x1080MP4.mp4 ]]>
+              <MediaFile id="nike_4k_video_test" delivery="progressive" type="video/mp4" width="3840" height="2160" codec="H.265" bitrate="8000" scalable="true" maintainAspectRatio="true">
+                <![CDATA[ https://cdn.adgrx.com/files/mL/356AHQuTJSDjW71ZTemw/transcoded_1920x1080_transcoded_1920x1080_NBA25-BASE-LIVE_ACTION_LAUNCH_TRAILER_BUTTERFLIES-SAMSUNG-15-ENUS-ESRB-SONY-1920x1080-FINAL_1920x1080MP4.mp4 ]]>
               </MediaFile>
             </MediaFiles>
-            <!--  Interactive Elements  -->
             <VideoClicks>
               <ClickThrough>
                 <![CDATA[ https://www.nike.com/summer-collection?utm_source=video_ad&utm_medium=display&utm_campaign=summer2024&utm_content=30s_video&version=3.0 ]]>
@@ -77,14 +84,25 @@
                 <![CDATA[ https://httpbin.org/status/200?event=click&creative=summer2024_30s&position=cta&final=true&version=3.0 ]]>
               </ClickTracking>
             </VideoClicks>
-            <!--  Ad Parameters  -->
             <AdParameters>
               <![CDATA[ { "skipOffset": 5, "autoplay": true, "clickToPlay": false, "volume": 0.8, "brandName": "Nike", "campaignName": "Summer 2024", "productCategory": "Athletic Footwear", "targetingAge": "18-34", "language": "en-US", "playerSize": "responsive", "vastVersion": "3.0" } ]]>
             </AdParameters>
           </Linear>
         </Creative>
+        <!--  Non-Linear Overlay Creative (VAST 3.0 Compatible)  -->
+        <Creative id="nike_overlay_test" sequence="3" adId="nike_overlay_cta_test">
+          <NonLinearAds>
+            <NonLinear id="nike_cta_overlay_test" width="300" height="50" expandedWidth="400" expandedHeight="100" scalable="true" maintainAspectRatio="false" minSuggestedDuration="00:00:05">
+              <StaticResource creativeType="image/png">
+                <![CDATA[ https://via.placeholder.com/300x50/FF6900/FFFFFF?text=Shop+Now+v3.0 ]]>
+              </StaticResource>
+              <NonLinearClickThrough>
+                <![CDATA[ https://www.nike.com/summer-collection?utm_source=overlay&utm_medium=display&utm_campaign=summer2024&version=3.0 ]]>
+              </NonLinearClickThrough>
+            </NonLinear>
+          </NonLinearAds>
+        </Creative>
       </Creatives>
-      <!--  Extensions for Final Creative  -->
       <Extensions>
         <Extension type="creative_metadata_v3">
           <CreativeMetadata>

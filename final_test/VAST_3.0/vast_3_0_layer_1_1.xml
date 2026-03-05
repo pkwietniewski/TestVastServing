@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VAST version="3.0">
+  <!-- LAYER 1: Publisher SSP Wrapper - VAST 3.0 -->
+  <Ad id="ssp_wrapper_v3">
+    <Wrapper>
+      <AdSystem version="2.1">Publisher-SSP-Platform-v3</AdSystem>
+      <VASTAdTagURI><![CDATA[https://tizen-app-store-json-staging.int.samsungads.com/test/vast_3_0_inline_1.xml]]></VASTAdTagURI>
+      <Error><![CDATA[https://httpbin.org/status/200?layer=ssp&error=[ERRORCODE]&version=3.0]]></Error>
+      <Impression><![CDATA[https://httpbin.org/status/200?layer=ssp&publisher=pub123&placement=video_slot&version=3.0]]></Impression>
+
+      <Creatives>
+        <Creative id="ssp_creative_v3">
+          <Linear>
+            <TrackingEvents>
+              <Tracking event="start"><![CDATA[https://httpbin.org/status/200?layer=ssp&event=start&version=3.0]]></Tracking>
+              <Tracking event="firstQuartile"><![CDATA[https://httpbin.org/status/200?layer=ssp&event=q1&version=3.0]]></Tracking>
+              <Tracking event="midpoint"><![CDATA[https://httpbin.org/status/200?layer=ssp&event=midpoint&version=3.0]]></Tracking>
+              <Tracking event="thirdQuartile"><![CDATA[https://httpbin.org/status/200?layer=ssp&event=q3&version=3.0]]></Tracking>
+              <Tracking event="complete"><![CDATA[https://httpbin.org/status/200?layer=ssp&event=complete&version=3.0]]></Tracking>
+              <Tracking event="mute"><![CDATA[https://httpbin.org/status/200?layer=ssp&event=mute&version=3.0]]></Tracking>
+              <Tracking event="unmute"><![CDATA[https://httpbin.org/status/200?layer=ssp&event=unmute&version=3.0]]></Tracking>
+              <Tracking event="pause"><![CDATA[https://httpbin.org/status/200?layer=ssp&event=pause&version=3.0]]></Tracking>
+              <Tracking event="resume"><![CDATA[https://httpbin.org/status/200?layer=ssp&event=resume&version=3.0]]></Tracking>
+              <Tracking event="fullscreen"><![CDATA[https://httpbin.org/status/200?layer=ssp&event=fullscreen&version=3.0]]></Tracking>
+              <Tracking event="creativeView"><![CDATA[https://httpbin.org/status/200?layer=ssp&event=creativeview&version=3.0]]></Tracking>
+              <Tracking event="acceptInvitation"><![CDATA[https://httpbin.org/status/200?layer=ssp&event=accept&version=3.0]]></Tracking>
+              <Tracking event="close"><![CDATA[https://httpbin.org/status/200?layer=ssp&event=close&version=3.0]]></Tracking>
+            </TrackingEvents>
+
+            <VideoClicks>
+              <ClickThrough><![CDATA[https://www.example.com/fallback-ssp-v3]]></ClickThrough>
+              <ClickTracking><![CDATA[https://httpbin.org/status/200?layer=ssp&event=click&version=3.0]]></ClickTracking>
+            </VideoClicks>
+          </Linear>
+        </Creative>
+      </Creatives>
+
+      <!-- SSP Extensions -->
+      <Extensions>
+        <Extension type="ssp_data_v3">
+          <PublisherID>pub_12345</PublisherID>
+          <SiteID>site_67890</SiteID>
+          <PlacementID>placement_video_001</PlacementID>
+          <FloorPrice currency="USD">10.00</FloorPrice>
+          <WaterfallPosition>1</WaterfallPosition>
+          <VASTVersion>3.0</VASTVersion>
+        </Extension>
+      </Extensions>
+    </Wrapper>
+  </Ad>
+</VAST>
