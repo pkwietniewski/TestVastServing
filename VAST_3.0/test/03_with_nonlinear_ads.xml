@@ -24,7 +24,7 @@
         <![CDATA[ https://httpbin.org/status/200?impression=nike&creative=summer2024_30s&campaign=just_do_it&version=3.0 ]]>
       </Impression>
       <Creatives>
-        <Creative id="nike_main_video_test" adId="nike_summer_2024_30s_test">
+        <Creative id="nike_main_video_test" adId="nike_summer_2024_30s_test" sequence="1">
           <Linear>
             <Duration>00:00:30</Duration>
             <TrackingEvents>
@@ -90,7 +90,7 @@
           </Linear>
         </Creative>
         <!--  Non-Linear Overlay Creative (VAST 3.0 Compatible)  -->
-        <Creative id="nike_overlay_test" sequence="3" adId="nike_overlay_cta_test">
+        <Creative id="nike_overlay_test" sequence="2" adId="nike_overlay_cta_test">
           <NonLinearAds>
             <NonLinear id="nike_cta_overlay_test" width="300" height="50" expandedWidth="400" expandedHeight="100" scalable="true" maintainAspectRatio="false" minSuggestedDuration="00:00:05">
               <StaticResource creativeType="image/png">
