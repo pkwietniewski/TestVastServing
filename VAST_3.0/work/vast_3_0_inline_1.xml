@@ -71,8 +71,8 @@
               </Tracking>
             </TrackingEvents>
             <MediaFiles>
-              <MediaFile id="nike_4k_video_v3" delivery="progressive" type="video/mp4" width="3840" height="2160" codec="H.265" bitrate="8000" scalable="true" maintainAspectRatio="true">
-                <![CDATA[ https://cdn.adgrx.com/files/Kz/TtRl3AkMgmqgnFzBHx_A/13_source_228712_1429112.mp4 ]]>
+              <MediaFile id="nike_4k_video_v3" delivery="progressive" type="video/mp4" width="1920" height="1080" codec="H.265" bitrate="8000" scalable="true" maintainAspectRatio="true">
+                <![CDATA[ https://cdn.adgrx.com/files/p7/KjxTBBvwwdCR3LDz7w/13_source_236226_1432168.mp4 ]]>
               </MediaFile>
             </MediaFiles>
             <VideoClicks>
